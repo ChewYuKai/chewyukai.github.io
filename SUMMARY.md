@@ -1,5 +1,5 @@
 # Table of contents
 
-* [PhD Diary](README.md)
+* [PhD Notes](README.md)
 * [Literature Review](literature-review.md)
 

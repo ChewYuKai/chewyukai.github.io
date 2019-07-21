@@ -1,4 +1,4 @@
-# PhD Diary
+# PhD Notes
 
 ## Literature Review
 
