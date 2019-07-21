@@ -1,7 +1,3 @@
----
-description: This page is for documenting my learning journey
----
-
 # PhD Diary
 
 ## Literature Review
