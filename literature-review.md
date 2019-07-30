@@ -10,6 +10,11 @@
 | Neural Ordinary Differential Equation | 28/07/2017 | Architecture |  |
 | An Overview of Multi-Task Learning in Deep Neural Networks | 28/07/2017 | Architecture |  |
 | Solving Multiclass Learning Problems via Error-Correcting Output Codes | 28/07/2017 | Misc |  |
-|  |  |  |  |
-|  |  |  |  |
+| Rich feature hierarchies for accurate object detection and semantic segmentation |  |  | R-CNN |
+| Fast R-CNN |  |  | Fast R-CNN |
+| Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks |  |  | Faster R-CNN |
+| Beyond one-hot encoding: Lower dimensional target embedding |  |  |  |
+| Self-Supervised GAN via Auxillary Rotation Loss |  |  |  |
+| Few-Shot Adversarial Learning of Realistic Neural Talking Head Model |  |  |  |
+| Noise2Noise: Learning Image Restoration without Clean Data |  |  |  |
 
