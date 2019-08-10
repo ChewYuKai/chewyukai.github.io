@@ -9,15 +9,17 @@
 | Densely Connected Convolutional Networks | Architecture |  |
 | Neural Ordinary Differential Equation | Architecture |  |
 | An Overview of Multi-Task Learning in Deep Neural Networks | Architecture |  |
-| Solving Multiclass Learning Problems via Error-Correcting Output Codes | Misc |  |
-| Rich feature hierarchies for accurate object detection and semantic segmentation |  | R-CNN |
-| Fast R-CNN |  | Fast R-CNN |
-| Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks |  | Faster R-CNN |
-| Beyond one-hot encoding: Lower dimensional target embedding |  |  |
-| Self-Supervised GAN via Auxillary Rotation Loss |  |  |
-| Few-Shot Adversarial Learning of Realistic Neural Talking Head Model |  |  |
-| Noise2Noise: Learning Image Restoration without Clean Data |  |  |
-| Deep Clustering for Unsupervised Learning of Visual Features |  |  |
-| Deep k-Means: Jointly clustering with k-Means and learning representations |  |  |
-| Label-Removed Generative Adversarial Networks Incorporating with K-Means |  |  |
+| Solving Multiclass Learning Problems via Error-Correcting Output Codes | ECOC |  |
+| Rich feature hierarchies for accurate object detection and semantic segmentation | Object Localization |  |
+| Fast R-CNN | Object Localization |  |
+| Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | Object Localization |  |
+| Beyond one-hot encoding: Lower dimensional target embedding | ECOC |  |
+| Self-Supervised GAN via Auxillary Rotation Loss | Self-Supervision |  |
+| Few-Shot Adversarial Learning of Realistic Neural Talking Head Model | Cool Application |  |
+| Noise2Noise: Learning Image Restoration without Clean Data |  Autoencoder |  |
+| Deep Clustering for Unsupervised Learning of Visual Features | Autoencoder |  |
+| Deep k-Means: Jointly clustering with k-Means and learning representations | Self-Supervision |  |
+| Label-Removed Generative Adversarial Networks Incorporating with K-Means | Self-Supervision |  |
+| Adversarial feature learning | Generative Adversarial Network |  |
+| An Empirical Study of Generative Models with Encoders | Generative Adversarial Network |  |
 
