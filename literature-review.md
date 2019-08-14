@@ -17,7 +17,7 @@
 | 11 | Self-Supervised GAN via Auxillary Rotation Loss | Self-Supervision | This paper claims that GANs is a non-stationary online environment which is prone to catastrophic forgetting, causing GANs to be cyclic and/or unstable during training. I think that the idea of self-supervision is interesting and is worthy of futher investigation |
 | 12 | Progressive Growing of GANs for Improved Quality, Stability, and Variation |  | This paper propose an innovative way to train GANs i.e. by slowly increasing the image size with easing from 4x4, 8x8, until the network is able to produce full-resolution image. Paper also propose ways to "discourage unhealthy" competition between G & D by preventing G from reacting to escalations from G. The author argues that this way of training similar to multi-G / multi-D architecture. Methods to equalize learning rate was mentioned as large variance in it will cause LR to be both \(too high or too small\).  |
 | 13 | Few-Shot Adversarial Learning of Realistic Neural Talking Head Model | Cool GAN |  |
-| 14 | Noise2Noise: Learning Image Restoration without Clean Data |  Autoencoder | Amazing paper which applies the idea of zero-mean noise \(which image-stacking and long-exposure image relies on\) to train neural network. Training a denoiser using noisy images as both input & output, using a L2 loss will converge the network into its mean. Since, the mean is ZERO, the resultant output will be the denoised image |
+| 14 | Noise2Noise: Learning Image Restoration without Clean Data |  Autoencoder | Amazing paper which applies the idea of zero-mean noise \(which image-stacking and long-exposure image relies on\) to train neural network. Training a denoiser using noisy images as both input & output, using a L2 loss will converge the network into its mean. Since, the mean is ZERO, the resultant output will be the denoised image. |
 | 15 | Deep Clustering for Unsupervised Learning of Visual Features | Autoencoder |  |
 | 16 | Deep k-Means: Jointly clustering with k-Means and learning representations | Self-Supervision |  |
 | 17 | Label-Removed Generative Adversarial Networks Incorporating with K-Means | Self-Supervision |  |
@@ -26,12 +26,12 @@
 | 20 | Progressive Growing of GANs for Improved Quality, Stability, and Variation | Generative Adversarial Network |  |
 | 21 | Semantic Image Synthesis with Spatially-Adaptive Normalization | Generative Adversarial Network |  |
 | 22 | Transferring GANs: generating images from limited data | Generative Adversarial Network |  |
-| 23 | OCGAN: One-class Novelty Detection Using GANs with Constrained LatentRepresentations | Generative Adversarial Network |  |
+| 23 | OCGAN: One-class Novelty Detection Using GANs with Constrained Latent Representations | Generative Adversarial Network |  |
 | 24 | Clustergan: Latent space clustering in generative adversarial networks | Generative Adversarial Network |  |
-| 25 | Balanced Self-Paced Learning for Generative Adversarial Clustering Network | Generative Adversarial Network |  |
+| 25 | Balanced Self-Paced Learning for Generative Adversarial Clustering Network | Generative Adversarial Network | Interesting architecture where a clusterer is introduced to GAN, whose role is the reverse of generator. G takes a random noise and generates an images, while C takes an image and maps it into a latent space. D would need to an additional vector i.e. fake mapping to differentiate real/fake image + correct/incorrect latent space mapping. This architecture is similar to bi-directional GAN. |
 | 26 | Conditional Adversarial Generative Flow for Controllable Image Synthesis | Generative Adversarial Network |  |
 | 27 | Generative Dual Adversarial Network for Generalized Zero-shot Learning | Generative Adversarial Network |  |
 | 28 | Mode Seeking Generative Adversarial Networks for Diverse Image Synthesis | Generative Adversarial Network |  |
 | 29 | Label-Noise Robust Generative Adversarial Networks | Generative Adversarial Network |  |
-|  |  |  |  |
+| 30 | Adversarial Feature Learning | Generative Adversarial Network | Bi-directional GAN |
 
