@@ -16,12 +16,12 @@
 | Beyond one-hot encoding: Lower dimensional target embedding | ECOC | This paper propose an alternative to one-hot encoding, showing that we can lower the dimensionality from N to min of log\(N\) at no cost to accuracy. Experiments also shows using these alternative ECOC encoding speeds up convergence of training neural networks. | [https://arxiv.org/pdf/1806.10805.pdf](https://arxiv.org/pdf/1806.10805.pdf) |
 | Self-Supervised GANs via Auxillary Rotation Loss | Self-Supervision | This paper claims that GANs is a non-stationary online environment which is prone to catastrophic forgetting, causing GANs to be cyclic and/or unstable during training. I think that the idea of self-supervision is interesting and is worthy of futher investigation | [https://arxiv.org/pdf/1811.11212.pdf](https://arxiv.org/pdf/1811.11212.pdf) |
 | Progressive Growing of GANs for Improved Quality, Stability, and Variation | Generative Adverserial Network | This paper propose an innovative way to train GANs i.e. by slowly increasing the image size with easing from 4x4, 8x8, until the network is able to produce full-resolution image. Paper also propose ways to "discourage unhealthy" competition between G & D by preventing G from reacting to escalations from G. The author argues that this way of training similar to multi-G / multi-D architecture. Methods to equalize learning rate was mentioned as large variance in it will cause LR to be both \(too high or too small\).  | [https://arxiv.org/pdf/1710.10196.pdf](https://arxiv.org/pdf/1710.10196.pdf) |
-| Few-Shot Adversarial Learning of Realistic Neural Talking Head Model | Cool GAN |  |  |
+| Few-Shot Adversarial Learning of Realistic Neural Talking Head Model | Cool GAN |  | [https://arxiv.org/pdf/1905.08233.pdf](https://arxiv.org/pdf/1905.08233.pdf) |
 | Noise2Noise: Learning Image Restoration without Clean Data |  Autoencoder | Amazing paper which applies the idea of zero-mean noise \(which image-stacking and long-exposure image relies on\) to train neural network. Training a denoiser using noisy images as both input & output, using a L2 loss will converge the network into its mean. Since, the mean is ZERO, the resultant output will be the denoised image. | [https://arxiv.org/pdf/1803.04189.pdf](https://arxiv.org/pdf/1803.04189.pdf) |
 | Deep Clustering for Unsupervised Learning of Visual Features | Autoencoder |  |  |
 | Deep k-Means: Jointly clustering with k-Means and learning representations | Self-Supervision |  |  |
 | Label-Removed Generative Adversarial Networks Incorporating with K-Means | Self-Supervision |  |  |
-| Adversarial feature learning | Generative Adversarial Network | Bi-directional GAN | [https://arxiv.org/abs/1605.09782](https://arxiv.org/abs/1605.09782) |
+| Adversarial feature learning | Generative Adversarial Network | Bi-directional GAN | [https://arxiv.org/pdf/1605.09782.pdf](https://arxiv.org/pdf/1605.09782.pdf) |
 | An Empirical Study of Generative Models with Encoders | Generative Adversarial Network |  |  |
 | Semantic Image Synthesis with Spatially-Adaptive Normalization | Generative Adversarial Network |  |  |
 | Transferring GANs: generating images from limited data | Generative Adversarial Network |  |  |
@@ -33,4 +33,5 @@
 | Mode Seeking Generative Adversarial Networks for Diverse Image Synthesis | Generative Adversarial Network |  |  |
 | Label-Noise Robust Generative Adversarial Networks | Generative Adversarial Network |  |  |
 | Adversarially Learned Inference | Generative Adversarial Network |  |  |
+| Large Scale Adversarial Representation Learning | Generative Adversarial Network | BigBiGans | [https://arxiv.org/pdf/1907.02544.pdf](https://arxiv.org/pdf/1907.02544.pdf) |
 
