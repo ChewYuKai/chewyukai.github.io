@@ -19,8 +19,8 @@
 | Few-Shot Adversarial Learning of Realistic Neural Talking Head Model | Cool GAN |  | [https://arxiv.org/pdf/1905.08233.pdf](https://arxiv.org/pdf/1905.08233.pdf) |
 | Noise2Noise: Learning Image Restoration without Clean Data |  Autoencoder | Amazing paper which applies the idea of zero-mean noise \(which image-stacking and long-exposure image relies on\) to train neural network. Training a denoiser using noisy images as both input & output, using a L2 loss will converge the network into its mean. Since, the mean is ZERO, the resultant output will be the denoised image. | [https://arxiv.org/pdf/1803.04189.pdf](https://arxiv.org/pdf/1803.04189.pdf) |
 | Deep Clustering for Unsupervised Learning of Visual Features | Autoencoder |  |  |
-| Deep k-Means: Jointly clustering with k-Means and learning representations | Self-Supervision |  |  |
-| Label-Removed Generative Adversarial Networks Incorporating with K-Means | Self-Supervision |  |  |
+| Deep k-Means: Jointly clustering with k-Means and learning representations | Self-Supervision |  | [https://arxiv.org/pdf/1902.06938.pdf](https://arxiv.org/pdf/1902.06938.pdf) |
+| Label-Removed Generative Adversarial Networks Incorporating with K-Means | Self-Supervision | This paper introduce a way to prevent model collapse by using K-Means generated labels to guide network training. Though labeled-data is used, this architecture is grouped under _unconditional GAN_, the labels are not being used to condition the output_._ | [https://arxiv.org/pdf/1902.06938.pdf](https://arxiv.org/pdf/1902.06938.pdf) |
 | Adversarial feature learning | Generative Adversarial Network | Bi-directional GAN | [https://arxiv.org/pdf/1605.09782.pdf](https://arxiv.org/pdf/1605.09782.pdf) |
 | An Empirical Study of Generative Models with Encoders | Generative Adversarial Network |  |  |
 | Semantic Image Synthesis with Spatially-Adaptive Normalization | Generative Adversarial Network |  |  |
@@ -34,4 +34,6 @@
 | Label-Noise Robust Generative Adversarial Networks | Generative Adversarial Network |  |  |
 | Adversarially Learned Inference | Generative Adversarial Network |  |  |
 | Large Scale Adversarial Representation Learning | Generative Adversarial Network | BigBiGans | [https://arxiv.org/pdf/1907.02544.pdf](https://arxiv.org/pdf/1907.02544.pdf) |
+| DS3L: Deep Self-Semi-Supervised Learning for Image Recognition |  |  | [https://arxiv.org/pdf/1905.13305.pdf](https://arxiv.org/pdf/1905.13305.pdf) |
+| Collaborative Sampling in Generative Adversarial Networks |  |  | [https://infoscience.epfl.ch/record/263864/files/main.pdf](https://infoscience.epfl.ch/record/263864/files/main.pdf) |
 
