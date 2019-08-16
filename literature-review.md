@@ -37,7 +37,6 @@
 | DS3L: Deep Self-Semi-Supervised Learning for Image Recognition |  |  | [https://arxiv.org/pdf/1905.13305.pdf](https://arxiv.org/pdf/1905.13305.pdf) |
 | Collaborative Sampling in Generative Adversarial Networks |  |  | [https://infoscience.epfl.ch/record/263864/files/main.pdf](https://infoscience.epfl.ch/record/263864/files/main.pdf) |
 | Conditional image synthesis with auxiliary classifier GANs |  |  | [https://arxiv.org/pdf/1610.09585.pdf](https://arxiv.org/pdf/1610.09585.pdf) |
-| Adversarial Discriminative Domain Adaptation |  |  | [https://bit.ly/2KR5rP8](https://bit.ly/2KR5rP8) |
 | A Survey of Unsupervised Deep Domain Adaptation |  |  | [https://arxiv.org/pdf/1812.02849.pdf](https://arxiv.org/pdf/1812.02849.pdf) |
 | Generative Compression |  |  | [https://arxiv.org/abs/1703.01467](https://arxiv.org/abs/1703.01467) |
 | Font Size: It Takes \(Only\) Two: Adversarial Generator-Encoder Networks |  |  | [https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16568/15816](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16568/15816) |
@@ -45,4 +44,18 @@
 | Adversarial Feature Augmentation for Unsupervised Domain Adaptation |  |  | [https://bit.ly/31zYrx0](https://bit.ly/31zYrx0) |
 | Learning hierarchical features from deep generative models |  |  | [https://arxiv.org/pdf/1702.08396.pdf](https://arxiv.org/pdf/1702.08396.pdf) |
 | Semantic Image Synthesis via Adversarial Learning |  |  | [https://bit.ly/30iJtuQ](https://bit.ly/30iJtuQ) |
+| Loss is its own Reward: Self-Supervision for Reinforcement Learning |  |  | [https://arxiv.org/pdf/1612.07307.pdf](https://arxiv.org/pdf/1612.07307.pdf) |
+| Structured Generative Adversarial Networks |  |  | [http://papers.nips.cc/paper/6979-structured-generative-adversarial-networks](http://papers.nips.cc/paper/6979-structured-generative-adversarial-networks) |
+| Conditional Image-to-Image Translation |  |  | [https://arxiv.org/pdf/1805.00251.pdf](https://arxiv.org/pdf/1805.00251.pdf) |
+| Ensembles of Generative Adversarial Networks |  |  | [https://arxiv.org/pdf/1612.00991.pdf](https://arxiv.org/pdf/1612.00991.pdf) |
+| Denoising Adversarial Autoencoders |  |  | [https://arxiv.org/pdf/1703.01220.pdf](https://arxiv.org/pdf/1703.01220.pdf) |
+| How Generative Adversarial Networks and Their Variants Work: An Overview |  |  | [https://arxiv.org/pdf/1711.05914.pdf](https://arxiv.org/pdf/1711.05914.pdf) |
+| Self-Supervised Feature Learning by Learning to Spot Artifacts |  |  | [https://arxiv.org/pdf/1806.05024.pdf](https://arxiv.org/pdf/1806.05024.pdf) |
+| Lifelong Generative Modeling |  |  | [https://arxiv.org/pdf/1705.09847.pdf](https://arxiv.org/pdf/1705.09847.pdf) |
+| Generative Adversarial Image Synthesis With Decision Tree Latent Controller |  |  | [https://arxiv.org/pdf/1805.10603.pdf](https://arxiv.org/pdf/1805.10603.pdf) |
+| Bidirectional Conditional Generative Adversarial Networks |  |  | [https://arxiv.org/pdf/1711.07461.pdf](https://arxiv.org/pdf/1711.07461.pdf) |
+| Stacked Generative Adversarial Networks |  |  | [https://arxiv.org/pdf/1612.04357.pdf](https://arxiv.org/pdf/1612.04357.pdf) |
+| Neural Photo Editing with Introspective Adversarial Networks |  |  | [https://arxiv.org/pdf/1609.07093.pdf](https://arxiv.org/pdf/1609.07093.pdf) |
+| Adversarial Discriminative Domain Adaptation |  |  | [https://arxiv.org/pdf/1702.05464.pdf](https://arxiv.org/pdf/1702.05464.pdf) |
+|  |  |  |  |
 
