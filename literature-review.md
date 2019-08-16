@@ -57,5 +57,5 @@
 | Stacked Generative Adversarial Networks |  |  | [https://arxiv.org/pdf/1612.04357.pdf](https://arxiv.org/pdf/1612.04357.pdf) |
 | Neural Photo Editing with Introspective Adversarial Networks |  |  | [https://arxiv.org/pdf/1609.07093.pdf](https://arxiv.org/pdf/1609.07093.pdf) |
 | Adversarial Discriminative Domain Adaptation |  |  | [https://arxiv.org/pdf/1702.05464.pdf](https://arxiv.org/pdf/1702.05464.pdf) |
-|  |  |  |  |
+| Controllable Generative Adversarial Network |  |  | [https://arxiv.org/pdf/1708.00598.pdf](https://arxiv.org/pdf/1708.00598.pdf) |
 
