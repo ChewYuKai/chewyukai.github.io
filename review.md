@@ -2,7 +2,7 @@
 
 ## Session 1
 
-### Papers Discussed
+### Papers for discussion
 
 * Adversarial feature learning​
 * Label-Removed Generative Adversarial Networks Incorporating with K-Means​
