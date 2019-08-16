@@ -15,7 +15,7 @@ Track progress on objective
 
 #### Progress Status
 
-| Date | Read Completed | Implement Completed | Deep Analysis Completed |
-| :--- | :--- | :--- | :--- |
-| 21/07/2019 |  |  |  |
+| Task | Complete By |
+| :--- | :--- |
+| Literature Review 1st Round | 31st December 2019 |
 

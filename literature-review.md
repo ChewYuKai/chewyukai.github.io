@@ -36,4 +36,13 @@
 | Large Scale Adversarial Representation Learning | Generative Adversarial Network | BigBiGans | [https://arxiv.org/pdf/1907.02544.pdf](https://arxiv.org/pdf/1907.02544.pdf) |
 | DS3L: Deep Self-Semi-Supervised Learning for Image Recognition |  |  | [https://arxiv.org/pdf/1905.13305.pdf](https://arxiv.org/pdf/1905.13305.pdf) |
 | Collaborative Sampling in Generative Adversarial Networks |  |  | [https://infoscience.epfl.ch/record/263864/files/main.pdf](https://infoscience.epfl.ch/record/263864/files/main.pdf) |
+| Conditional image synthesis with auxiliary classifier GANs |  |  | [https://arxiv.org/pdf/1610.09585.pdf](https://arxiv.org/pdf/1610.09585.pdf) |
+| Adversarial Discriminative Domain Adaptation |  |  | [https://bit.ly/2KR5rP8](https://bit.ly/2KR5rP8) |
+| A Survey of Unsupervised Deep Domain Adaptation |  |  | [https://arxiv.org/pdf/1812.02849.pdf](https://arxiv.org/pdf/1812.02849.pdf) |
+| Generative Compression |  |  | [https://arxiv.org/abs/1703.01467](https://arxiv.org/abs/1703.01467) |
+| Font Size: It Takes \(Only\) Two: Adversarial Generator-Encoder Networks |  |  | [https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16568/15816](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16568/15816) |
+| Inverting the Generator of a Generative Adversarial Network |  |  | [https://arxiv.org/pdf/1611.05644.pdf](https://arxiv.org/pdf/1611.05644.pdf) |
+| Adversarial Feature Augmentation for Unsupervised Domain Adaptation |  |  | [https://bit.ly/31zYrx0](https://bit.ly/31zYrx0) |
+| Learning hierarchical features from deep generative models |  |  | [https://arxiv.org/pdf/1702.08396.pdf](https://arxiv.org/pdf/1702.08396.pdf) |
+| Semantic Image Synthesis via Adversarial Learning |  |  | [https://bit.ly/30iJtuQ](https://bit.ly/30iJtuQ) |
 
