@@ -4,13 +4,51 @@
 
 ### Domain Adaptation
 
-| Name | Summary | File |
-| :--- | :--- | :--- |
-| Domain-Adversarial Training of Neural Networks | Interesting paper where a neural net is trained to ignore domain specific features, in other to apply knowledge learnt from a labelled domain to an unlabelled domain. I believe that no new knowledge is gained from the unlabeled source | [https://arxiv.org/pdf/1505.07818.pdf](https://arxiv.org/pdf/1505.07818.pdf) |
-| Analysis of Representations for Domain Adaptation |  | [https://papers.nips.cc/paper/2983-analysis-of-representations-for-domain-adaptation.pdf](https://papers.nips.cc/paper/2983-analysis-of-representations-for-domain-adaptation.pdf) |
-| A theory of learning from different domains |  | [https://storage.googleapis.com/pub-tools-public-publication-data/pdf/36364.pdf](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/36364.pdf) |
-
-### Fourier Neural Network
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Name</th>
+      <th style="text-align:left">Summary</th>
+      <th style="text-align:left">File</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Domain-Adversarial Training of Neural Networks</td>
+      <td style="text-align:left">Interesting paper where a neural net is trained to ignore domain specific
+        features, in other to apply knowledge learnt from a labelled domain to
+        an unlabelled domain. I believe that no new knowledge is gained from the
+        unlabeled source</td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1505.07818.pdf">https://arxiv.org/pdf/1505.07818.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Analysis of Representations for Domain Adaptation</td>
+      <td style="text-align:left">Theory and Math behind Domain Adaption from label source to unlabeled
+        target domain.</td>
+      <td style="text-align:left"><a href="https://papers.nips.cc/paper/2983-analysis-of-representations-for-domain-adaptation.pdf">https://papers.nips.cc/paper/2983-analysis-of-representations-for-domain-adaptation.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">A theory of learning from different domains</td>
+      <td style="text-align:left">
+        <p>More theory that I don&apos;t understand.</p>
+        <p></p>
+        <p>Domain Adaption looks to be similar to transfer learning. However, the
+          labeling are preserved. It seems to me that domain adaptation can enhance
+          network performance on the testing set, if the images are available before
+          hand.</p>
+      </td>
+      <td style="text-align:left"><a href="https://storage.googleapis.com/pub-tools-public-publication-data/pdf/36364.pdf">https://storage.googleapis.com/pub-tools-public-publication-data/pdf/36364.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>### Fourier Neural Network
 
 | Name | Summary | File |
 | :--- | :--- | :--- |
