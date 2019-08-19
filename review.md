@@ -14,7 +14,7 @@
 * 
 ### Slides
 
-[https://entuedu-my.sharepoint.com/:p:/g/personal/chew0392\_e\_ntu\_edu\_sg/ES3pqnKKktZBtMwMksak2YQBxR6TStwnXKKeg5Dypjef8w?e=KbY6UB](https://entuedu-my.sharepoint.com/:p:/g/personal/chew0392_e_ntu_edu_sg/ES3pqnKKktZBtMwMksak2YQBxR6TStwnXKKeg5Dypjef8w?e=KbY6UB)
+[https://entuedu-my.sharepoint.com/:p:/g/personal/chew0392\_e\_ntu\_edu\_sg/ES3pqnKKktZBtMwMksak2YQBq6w1PgAsyr0zoruVNL3yQQ?email=AdamsKong%40ntu.edu.sg&e=G7u9ZQ](https://entuedu-my.sharepoint.com/:p:/g/personal/chew0392_e_ntu_edu_sg/ES3pqnKKktZBtMwMksak2YQBq6w1PgAsyr0zoruVNL3yQQ?email=AdamsKong%40ntu.edu.sg&e=G7u9ZQ)
 
 ## 
 
