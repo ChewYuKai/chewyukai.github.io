@@ -161,7 +161,7 @@
     <tr>
       <td style="text-align:left">Transferring GANs: generating images from limited data</td>
       <td style="text-align:left">This paper is an empirical study of transfer-learning/domain-adaptation
-        of GANS. Comparison have been made between pre-train vs randomly-initilized
+        of GANS. Comparison have been made between pre-trained vs randomly-initilized
         network.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1805.01677.pdf">https://arxiv.org/pdf/1805.01677.pdf</a>
       </td>
@@ -183,7 +183,7 @@
       <td
       style="text-align:left">This paper is the first that I have seen that suggest that cluster structure
         is not preserved in GANs. The authors explored different ways to present
-        the piors such that, clustering structure is preserved. Not very interesting,
+        the priors such that, clustering structure is preserved. Not very interesting,
         seems like conditional GAN.</td>
         <td style="text-align:left"><a href="https://arxiv.org/pdf/1809.03627.pdf">https://arxiv.org/pdf/1809.03627.pdf</a>
         </td>
@@ -214,7 +214,7 @@
       <td
       style="text-align:left">This paper propose to use cycle-consistency from image features-to-class
         labels, for the purpose of zero shot learning. Interesting application
-        of cycleGANs concept beyong image-to-image translation. Similar examples
+        of cycleGANs concept beyond image-to-image translation. Similar examples
         cited in this paper that involves dual-learning like language translation,
         English -&gt; French &amp; French -&gt; English.</td>
         <td style="text-align:left"><a href="https://arxiv.org/pdf/1811.04857.pdf">https://arxiv.org/pdf/1811.04857.pdf</a>
@@ -228,10 +228,12 @@
           term, dependent on the distance between the latent codes. Distant codes
           should produce very different image compared to close-by codes. The challenge
           of this approach is to preserve image realism and that the generator continues
-          to present the real data distribution, as we seek to maximize diversity.</p>
-        <p>categorical synthesis, image-to-image, text-to-image</p>
+          to present the real data distribution, as we seek to maximize diversity.
+          The work experiment on three types of conditioning namely</p>
+        <p>categorical, image-to-image, and text-to-image.</p>
         </td>
-        <td style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1903.05628.pdf">https://arxiv.org/pdf/1903.05628.pdf</a>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">Label-Noise Robust Generative Adversarial Networks</td>
