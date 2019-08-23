@@ -111,7 +111,7 @@
       <td style="text-align:left">This paper claims that GANs is a non-stationary online environment which
         is prone to catastrophic forgetting, causing GANs to be cyclic and/or unstable
         during training. I think that the idea of self-supervision is interesting
-        and is worthy of further investigation</td>
+        and is worthy of further investigation.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1811.11212.pdf">https://arxiv.org/pdf/1811.11212.pdf</a>
       </td>
     </tr>
@@ -239,11 +239,12 @@
       <td style="text-align:left">Label-Noise Robust Generative Adversarial Networks</td>
       <td style="text-align:left">This paper combine the solution for robust-noise classifier with cGANs
         &amp; AcGANS. Not interested.</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1811.11165.pdf">https://arxiv.org/pdf/1811.11165.pdf</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">Adversarially Learned Inference</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">BiGans-twin</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
@@ -253,53 +254,56 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">DS3L: Deep Self-Semi-Supervised Learning for Image Recognition</td>
-      <td
-      style="text-align:left"></td>
-        <td style="text-align:left"><a href="https://arxiv.org/pdf/1905.13305.pdf">https://arxiv.org/pdf/1905.13305.pdf</a>
-        </td>
-    </tr>
-    <tr>
       <td style="text-align:left">Collaborative Sampling in Generative Adversarial</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">This paper propose a way to reuse GAN&apos;s discriminator instead of
+        simple discarding it. The authors augment the generator&apos;s output with
+        feedback from the discriminator. Interesting idea.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1902.00813.pdf">https://arxiv.org/pdf/1902.00813.pdf</a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Conditional image synthesis with auxiliary classifier GANs</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">The first paper on cGANs &amp; AcGANs. Apart from novel conditioning,
+        this paper introduces discriminatory as a metric to approximate effective
+        resolution, citing that low resolution images are less discriminate. Paper
+        also suggest MS-SSIM for measuring diversity, but from my understanding
+        it is commonly used.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1610.09585.pdf">https://arxiv.org/pdf/1610.09585.pdf</a>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">A Survey of Unsupervised Deep Domain Adaptation</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"><a href="https://arxiv.org/pdf/1812.02849.pdf">https://arxiv.org/pdf/1812.02849.pdf</a>
-      </td>
-    </tr>
-    <tr>
       <td style="text-align:left">Generative Compression</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"><a href="https://arxiv.org/abs/1703.01467">https://arxiv.org/abs/1703.01467</a>
-      </td>
+      <td style="text-align:left">This paper presents a GANs-based compression technique for encoding an
+        image via a neural network. I believe that much of the latent information
+        has been encoded into the network itself, such that the actual compression
+        factor has been massively increased. I believe that this technique is effectively
+        representation learning with image/video compression as a use-case. It
+        will be interesting to see reconstruction accuracy for out-of-class images.</td>
+      <td
+      style="text-align:left"><a href="https://arxiv.org/pdf/1703.01467.pdf">https://arxiv.org/pdf/1703.01467.pdf</a>
+        </td>
     </tr>
     <tr>
-      <td style="text-align:left">Font Size: It Takes (Only) Two: Adversarial Generator-Encoder Networks</td>
+      <td style="text-align:left">It Takes (Only) Two: Adversarial Generator-Encoder Networks</td>
+      <td style="text-align:left">Encoder-Decoder GANs papers with lots of mathematical proof, and some
+        experimental results. Only two components G &amp; E are needed, compared
+        to 3 in BiGANs. The idea is interesting, and is worth further investigation.</td>
       <td
-      style="text-align:left"></td>
-        <td style="text-align:left"><a href="https://arxiv.org/pdf/1704.02304.pdf">https://arxiv.org/pdf/1704.02304.pdf</a>
+      style="text-align:left"><a href="https://arxiv.org/pdf/1704.02304.pdf">https://arxiv.org/pdf/1704.02304.pdf</a>
         </td>
     </tr>
     <tr>
       <td style="text-align:left">Inverting the Generator of a Generative Adversarial Network</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">This paper is an early work on the invertibility of generator, which have
+        now been achieve by BiGANs.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1611.05644.pdf">https://arxiv.org/pdf/1611.05644.pdf</a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Adversarial Feature Augmentation for Unsupervised Domain Adaptation</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">This paper uses GANs to augment feature map of target domain to have similar
+        encoding as the source domain.</td>
         <td style="text-align:left"><a href="https://bit.ly/31zYrx0">https://bit.ly/31zYrx0</a>
         </td>
     </tr>
@@ -311,20 +315,15 @@
     </tr>
     <tr>
       <td style="text-align:left">Semantic Image Synthesis via Adversarial Learning</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Text conditional GANs. Introduction contains many papers using various
+        types of conditioning.</td>
       <td style="text-align:left"><a href="https://bit.ly/30iJtuQ">https://bit.ly/30iJtuQ</a>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Loss is its own Reward: Self-Supervision for Reinforcement Learning</td>
-      <td
-      style="text-align:left"></td>
-        <td style="text-align:left"><a href="https://arxiv.org/pdf/1612.07307.pdf">https://arxiv.org/pdf/1612.07307.pdf</a>
-        </td>
-    </tr>
-    <tr>
       <td style="text-align:left">Structured Generative Adversarial Networks</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">This paper addresses enables controllability of GANs without a fully-labeled
+        dataset. I do not understand the technical details yet.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1711.00889.pdf">https://arxiv.org/pdf/1711.00889.pdf</a>
       </td>
     </tr>
