@@ -19,7 +19,7 @@
         features, in other to apply knowledge learnt from a labelled domain to
         an unlabelled domain. I believe that no new knowledge is gained from the
         unlabeled source</td>
-      <td style="text-align:left"><a href="https://arxiv.org/pdf/1505.07818.pdf">https://arxiv.org/pdf/1505.07818.pdf</a>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1505.07818.pdf">https://ar</a><a href="https://arxiv.org/pdf/1505.07818.pdf">xiv.org/pdf/1505.07818.pdf</a>
       </td>
     </tr>
     <tr>
@@ -323,19 +323,25 @@
     <tr>
       <td style="text-align:left">Structured Generative Adversarial Networks</td>
       <td style="text-align:left">This paper addresses enables controllability of GANs without a fully-labeled
-        dataset. I do not understand the technical details yet.</td>
+        dataset. I do not understand the technical details yet. I believe that
+        a deep dive needed.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1711.00889.pdf">https://arxiv.org/pdf/1711.00889.pdf</a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Conditional Image-to-Image Translation</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">This paper is seems to be very similar to style-transfer. Moreover, the
+        architecture contains 4 GANs which would be incredibly hard to train. I
+        believe that there must be way to image-conditioning simpler</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1805.00251.pdf">https://arxiv.org/pdf/1805.00251.pdf</a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Ensembles of Generative Adversarial Networks</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">This paper contains evaluation of GANs ensembles, namely; simple ensemble,
+        GANs, ensembe at each iteration GANs &amp; cascade GANS. Authors indicate
+        that seGANs &amp; cGANs can be combined, and that are there isn&apos;t
+        a good way to evaluate GAN ensemble.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1612.00991.pdf">https://arxiv.org/pdf/1612.00991.pdf</a>
       </td>
     </tr>
@@ -420,6 +426,89 @@
         <td
         style="text-align:left"><a href="https://arxiv.org/pdf/1812.04948.pdf">https://arxiv.org/pdf/1812.04948.pdf</a>
           </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Improved Techniques for Training GANs</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://papers.nips.cc/paper/6125-improved-techniques-for-training-gans">https://papers.nips.cc/paper/6125-improved-techniques-for-training-gans</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">DS3L: Deep Self-Semi-Supervised Learning for Image Recognition</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1905.13305.pdf">https://arxiv.org/pdf/1905.13305.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">On Self Modulation for Generative Adversarial Networks</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1810.01365.pdf">https://arxiv.org/pdf/1810.01365.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Large Scale GAN Training for High Fidelity Natural Image Synthesis</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1809.11096.pdf">https://arxiv.org/pdf/1809.11096.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Deep Generative Image Models using a Laplacian Pyramid of Adversarial
+        Networks</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1506.05751.pdf">https://arxiv.org/pdf/1506.05751.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">cGANs with Projection Discriminator</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1802.05637.pdf">https://arxiv.org/pdf/1802.05637.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Transferring GANs: generating images from limited data</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1805.01677.pdf">https://arxiv.org/pdf/1805.01677.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">A Learned Representation from Artistic Style</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1610.07629.pdf">https://arxiv.org/pdf/1610.07629.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Unsupervised Representation Learning with Deep Convolutional Generative
+        Adversarial Networks</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1511.06434.pdf">https://arxiv.org/pdf/1511.06434.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Collaborative Sampling in Generative Adversarial Networks</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1902.00813.pdf#cite.turner_metropolis-hastings_2018">https://arxiv.org/pdf/1902.00813.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Metropolis-Hastings Generative Adversarial Networks</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1811.11357.pdf">https://arxiv.org/pdf/1811.11357.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Discriminator Rejection Sampling</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1810.06758.pdf">https://arxiv.org/pdf/1810.06758.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1703.06868.pdf">https://arxiv.org/pdf/1703.06868.pdf</a>
+        </td>
     </tr>
   </tbody>
 </table>
