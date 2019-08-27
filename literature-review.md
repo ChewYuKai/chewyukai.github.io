@@ -347,7 +347,8 @@
     </tr>
     <tr>
       <td style="text-align:left">Denoising Adversarial Autoencoders</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Applying a denoising criterion improve encoding for classification. Dont
+        understand.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1703.01220.pdf">https://arxiv.org/pdf/1703.01220.pdf</a>
       </td>
     </tr>
