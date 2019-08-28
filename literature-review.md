@@ -204,7 +204,7 @@
       <td style="text-align:left">Conditional Adversarial Generative Flow for Controllable Image Synthesis</td>
       <td
       style="text-align:left">This paper explores the conditioning for flow-based adversarial generator.
-        This may be useful of flow-based generator becomes a research focus.</td>
+        This may be useful if flow-based generator becomes a research focus.</td>
         <td
         style="text-align:left"><a href="https://arxiv.org/pdf/1904.01782.pdf">https://arxiv.org/pdf/1904.01782.pdf</a>
           </td>
@@ -339,7 +339,7 @@
     <tr>
       <td style="text-align:left">Ensembles of Generative Adversarial Networks</td>
       <td style="text-align:left">This paper contains evaluation of GANs ensembles, namely; simple ensemble,
-        GANs, ensembe at each iteration GANs &amp; cascade GANS. Authors indicate
+        GANs, ensemble at each iteration GANs &amp; cascade GANS. Authors indicate
         that seGANs &amp; cGANs can be combined, and that are there isn&apos;t
         a good way to evaluate GAN ensemble.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1612.00991.pdf">https://arxiv.org/pdf/1612.00991.pdf</a>
