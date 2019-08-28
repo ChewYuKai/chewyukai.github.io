@@ -26,7 +26,7 @@
 
 * Domain-Adversarial Training of Neural Networks​
 * OCGAN: One-class Novelty Detection Using GANs with Constrained Latent Representations
-* Deep Clustering for Unsupervised Learning of Visual Features
+* Few-Shot Adversarial Learning of Realistic Neural Talking Head Models
 
 ### Feedback
 
