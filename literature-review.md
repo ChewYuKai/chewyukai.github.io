@@ -356,16 +356,20 @@
     <tr>
       <td style="text-align:left">How Generative Adversarial Networks and Their Variants Work: An Overview</td>
       <td
-      style="text-align:left"></td>
-        <td style="text-align:left"><a href="https://arxiv.org/pdf/1711.05914.pdf">https://arxiv.org/pdf/1711.05914.pdf</a>
-        </td>
+      style="text-align:left">Survey of GANs. Good to read if, I wish to understand technical details.</td>
+        <td
+        style="text-align:left"><a href="https://arxiv.org/pdf/1711.05914.pdf">https://arxiv.org/pdf/1711.05914.pdf</a>
+          </td>
     </tr>
     <tr>
       <td style="text-align:left">Self-Supervised Feature Learning by Learning to Spot Artifacts</td>
       <td
-      style="text-align:left"></td>
-        <td style="text-align:left"><a href="https://arxiv.org/pdf/1806.05024.pdf">https://arxiv.org/pdf/1806.05024.pdf</a>
-        </td>
+      style="text-align:left">This paper introduce a self-supervising technique to that in-paints realistic
+        artifacts that are locally unnoticeable, but globally incorrect. The authors
+        shows that their method achieved SOTA for unsupervised representation learning.</td>
+        <td
+        style="text-align:left"><a href="https://arxiv.org/pdf/1806.05024.pdf">https://arxiv.org/pdf/1806.05024.pdf</a>
+          </td>
     </tr>
     <tr>
       <td style="text-align:left">Lifelong Generative Modeling</td>
