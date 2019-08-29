@@ -373,16 +373,23 @@
     </tr>
     <tr>
       <td style="text-align:left">Lifelong Generative Modeling</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"><a href="https://arxiv.org/pdf/1705.09847.pdf">https://arxiv.org/pdf/1705.09847.pdf</a>
-      </td>
+      <td style="text-align:left">This paper introduces a way to mitigate catastrophic forgetting when learning
+        new tasks sequentially. The student model becomes the teacher at every
+        new task, hence preserving the knowledge from previously learnt task.</td>
+      <td
+      style="text-align:left"><a href="https://arxiv.org/pdf/1705.09847.pdf">https://arxiv.org/pdf/1705.09847.pdf</a>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">Generative Adversarial Image Synthesis With Decision Tree Latent Controller</td>
       <td
-      style="text-align:left"></td>
-        <td style="text-align:left"><a href="https://arxiv.org/pdf/1805.10603.pdf">https://arxiv.org/pdf/1805.10603.pdf</a>
-        </td>
+      style="text-align:left">Interesting idea, but paper is not presented in an easy to read manner.
+        The core idea is to impose a hierarchical order in the latent code, and
+        a regularization component to force the network to learn disentangled representation
+        in a a weakly supervised manner. Do not understand the technical details.</td>
+        <td
+        style="text-align:left"><a href="https://arxiv.org/pdf/1805.10603.pdf">https://arxiv.org/pdf/1805.10603.pdf</a>
+          </td>
     </tr>
     <tr>
       <td style="text-align:left">Bidirectional Conditional Generative Adversarial Networks</td>
