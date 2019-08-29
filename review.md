@@ -34,6 +34,7 @@
 * Outside vs Inside manifold
 * Novelty vs Anomaly detection
 * face is special
+* Encoding may be more impt than AdaIn
 
 ### Slides
 
