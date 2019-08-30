@@ -476,20 +476,22 @@
     </tr>
     <tr>
       <td style="text-align:left">Improved Techniques for Training GANs</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">...</td>
       <td style="text-align:left"><a href="https://papers.nips.cc/paper/6125-improved-techniques-for-training-gans">https://papers.nips.cc/paper/6125-improved-techniques-for-training-gans</a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">DS3L: Deep Self-Semi-Supervised Learning for Image Recognition</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">...</td>
         <td style="text-align:left"><a href="https://arxiv.org/pdf/1905.13305.pdf">https://arxiv.org/pdf/1905.13305.pdf</a>
         </td>
     </tr>
     <tr>
       <td style="text-align:left">On Self Modulation for Generative Adversarial Networks</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Self-Modulation Block looks very similar to AdaIn. So far, there is not
+        a hint of any explaination on why self-modulation works. It is merely an
+        idea that &quot;works&quot;.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1810.01365.pdf">https://arxiv.org/pdf/1810.01365.pdf</a>
       </td>
     </tr>
