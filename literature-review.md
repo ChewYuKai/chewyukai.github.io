@@ -1,6 +1,6 @@
 # Literature Review
 
-## mcdonald breakfast timePapers
+## Papers
 
 ### Domain Adaptation
 
