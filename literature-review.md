@@ -435,7 +435,7 @@
       <td style="text-align:left">This paper proposed to force images in the target domain to mimic encodings
         from the source domain. Experiments shows that for numbers dataset, their
         architecture achieved SOTA. However for the more complex NYUD dataset,
-        no comparision with existing methods was conducted. The flaw in the methodology
+        no comparison with existing methods was conducted. The flaw in the methodology
         is that having similar encodings does not ensure that class information
         is preserved. For example, the target network can encodes image of number
         ONE to the encoding of number THREE, and the discriminator will not be
@@ -445,14 +445,20 @@
     </tr>
     <tr>
       <td style="text-align:left">Controllable Generative Adversarial Network</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"><a href="https://arxiv.org/pdf/1708.00598.pdf">https://arxiv.org/pdf/1708.00598.pdf</a>
-      </td>
+      <td style="text-align:left">ControlGANs seems very much like AcGANs, if input labels is 0 and 1. This
+        paper explores interpolation of labels between 0 - 1 and extrapolation,
+        when labels &lt;0 and &gt;1. Results from the author shows, -1x labels
+        produced negative examples and 2x labels produces exaggerated examples.</td>
+      <td
+      style="text-align:left"><a href="https://arxiv.org/pdf/1708.00598.pdf">https://arxiv.org/pdf/1708.00598.pdf</a>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image
         Translation</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">This paper propose a image+domain conditioning for image-to-image translation.
+        Top-down approach paper with great utility and technically simple. Incremental
+        paper.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1711.09020.pdf">https://arxiv.org/pdf/1711.09020.pdf</a>
       </td>
     </tr>
