@@ -1,6 +1,6 @@
 # Literature Review
 
-## Papers
+## mcdonald breakfast timePapers
 
 ### Domain Adaptation
 
@@ -422,13 +422,24 @@
     </tr>
     <tr>
       <td style="text-align:left">Neural Photo Editing with Introspective Adversarial Networks</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">This paper is about a tool to make semantic changes to a image, instead
+        of making pixel-wise modification to a photo. The tool is a hybird between
+        VAE and GANs, to &quot;improve the capacity of the latent space without
+        increasing its dimension-ality&quot; as &quot;features learned by a discriminatively
+        trained network tend to be more expressive&quot;</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1609.07093.pdf">https://arxiv.org/pdf/1609.07093.pdf</a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Adversarial Discriminative Domain Adaptation</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">This paper proposed to force images in the target domain to mimic encodings
+        from the source domain. Experiments shows that for numbers dataset, their
+        architecture achieved SOTA. However for the more complex NYUD dataset,
+        no comparision with existing methods was conducted. The flaw in the methodology
+        is that having similar encodings does not ensure that class information
+        is preserved. For example, the target network can encodes image of number
+        ONE to the encoding of number THREE, and the discriminator will not be
+        able to differentiate apart.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1702.05464.pdf">https://arxiv.org/pdf/1702.05464.pdf</a>
       </td>
     </tr>
