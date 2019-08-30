@@ -340,7 +340,7 @@
     <tr>
       <td style="text-align:left">Ensembles of Generative Adversarial Networks</td>
       <td style="text-align:left">This paper contains evaluation of GANs ensembles, namely; simple ensemble,
-        GANs, ensemble at each iteration GANs &amp; cascade GANS. Authors indicate
+        GANs, ensemble at each iteration GANs &amp; cascade GANs. Authors indicate
         that seGANs &amp; cGANs can be combined, and that are there isn&apos;t
         a good way to evaluate GAN ensemble.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1612.00991.pdf">https://arxiv.org/pdf/1612.00991.pdf</a>
@@ -392,14 +392,31 @@
           </td>
     </tr>
     <tr>
-      <td style="text-align:left">Bidirectional Conditional Generative Adversarial Networks</td>
+      <td style="text-align:left">Invertible Conditional GANs for image editing</td>
       <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1611.06355.pdf">https://arxiv.org/pdf/1611.06355.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Bidirectional Conditional Generative Adversarial Networks</td>
+      <td style="text-align:left">This paper aims to apply BiGANs to cGANs, hence the name. The problem
+        statement is that traditional cGANs is unable to disentangle instrinic
+        code and extrinsic code, which the author claims to be the &quot;desired
+        properties of cGANs&quot; Naively combining BiGANs and cGANS will not work.
+        Hence, the solution is to c&apos; supervision. Honestly, I am not impressed
+        because it seems to be a incremental improvement.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1711.07461.pdf">https://arxiv.org/pdf/1711.07461.pdf</a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Stacked Generative Adversarial Networks</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">This paper attempt to train a generator by leveraging hierarchical representation
+        from discriminators. Instead of a single realism discriminator like a typical
+        GANs, sGANs divide them into several smaller stacked GANs, each with their
+        own representation discriminator. Experiment conducted by the authors show
+        that their architecture outperforms GANs w/o stacking. The authors omit
+        a lot of technical implementation details, I would have to dive into the
+        source code to figure out exact logic.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1612.04357.pdf">https://arxiv.org/pdf/1612.04357.pdf</a>
       </td>
     </tr>
