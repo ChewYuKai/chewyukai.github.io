@@ -44,8 +44,45 @@
     </tr>
     <tr>
       <td style="text-align:left">Unsupervised Domain Adaptation by Backpropagation</td>
+      <td style="text-align:left">This paper is about adding an adversarial component to force a classifier
+        to ignore domain-specific information for successful domain adaptation.</td>
+      <td
+      style="text-align:left"><a href="http://proceedings.mlr.press/v37/ganin15.pdf">http://proceedings.mlr.press/v37/ganin15.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Deep Visual Domain Adaptation: A Survey</td>
+      <td style="text-align:left">A deep survey on all types of domain adaptation categories. However, it
+        has introduces more technical details than the general motivation for technique.
+        For such a wide topic, such as domain adaption, the number of datasets
+        used by the research community seems to be very limited.</td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1802.03601v4.pdf">https://arxiv.org/pdf/1802.03601v4.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">A Survey of Unsupervised Deep Domain Adaptation</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"><a href="http://proceedings.mlr.press/v37/ganin15.pdf">http://proceedings.mlr.press/v37/ganin15.pdf</a>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1812.02849v2.pdf">https://arxiv.org/pdf/1812.02849v2.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Revisiting Batch Normalization For Practical Domain Adaptation</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1603.04779.pdf">https://arxiv.org/pdf/1603.04779.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Multimodal Unsupervised Image-to-Image Translation</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1812.02849v2.pdf">https://arxiv.org/pdf/1812.02849v2.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial
+        Networks</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1703.10593.pdf">https://arxiv.org/pdf/1703.10593.pdf</a>
       </td>
     </tr>
   </tbody>
