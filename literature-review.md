@@ -498,14 +498,16 @@
     <tr>
       <td style="text-align:left">Large Scale GAN Training for High Fidelity Natural Image Synthesis</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">This is the BiGAN paper, which is a good collection of techniques used
+        to train GANs on a large scale.</td>
         <td style="text-align:left"><a href="https://arxiv.org/pdf/1809.11096.pdf">https://arxiv.org/pdf/1809.11096.pdf</a>
         </td>
     </tr>
     <tr>
       <td style="text-align:left">Deep Generative Image Models using a Laplacian Pyramid of Adversarial
         Networks</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Interesting idea. However, ProGAN implemented something similar and more
+        elegant solution, a few years since this.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1506.05751.pdf">https://arxiv.org/pdf/1506.05751.pdf</a>
       </td>
     </tr>
