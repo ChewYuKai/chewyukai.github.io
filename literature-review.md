@@ -513,7 +513,7 @@
     </tr>
     <tr>
       <td style="text-align:left">cGANs with Projection Discriminator</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">This paper introduces a projection based conditioning</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1802.05637.pdf">https://arxiv.org/pdf/1802.05637.pdf</a>
       </td>
     </tr>
