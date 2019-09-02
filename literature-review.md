@@ -513,53 +513,55 @@
     </tr>
     <tr>
       <td style="text-align:left">cGANs with Projection Discriminator</td>
-      <td style="text-align:left">This paper introduces a projection based conditioning</td>
+      <td style="text-align:left">This paper introduces a projection-based conditioning derived from mathematical
+        equations. Not my style, and not much improvement can be made. Interesting
+        way of conditioning though.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1802.05637.pdf">https://arxiv.org/pdf/1802.05637.pdf</a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Transferring GANs: generating images from limited data</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">This paper is an empirical study of transfer learning of GANs trained
+        on large dataset like ImageNet, to dataset which are typically too small
+        to be trained reasonably. Interesting study, but the results are mostly
+        expected i.e. transfering both generator and discriminate yields the best
+        results.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1805.01677.pdf">https://arxiv.org/pdf/1805.01677.pdf</a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">A Learned Representation from Artistic Style</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">The paper was cited by AdaIn paper. AdaIn paper generalised affine transformation
+        in batch normalization layer for arbitrary style.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1610.07629.pdf">https://arxiv.org/pdf/1610.07629.pdf</a>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Unsupervised Representation Learning with Deep Convolutional Generative
-        Adversarial Networks</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"><a href="https://arxiv.org/pdf/1511.06434.pdf">https://arxiv.org/pdf/1511.06434.pdf</a>
-      </td>
-    </tr>
-    <tr>
       <td style="text-align:left">Collaborative Sampling in Generative Adversarial Networks</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">This paper make use of the discriminator&apos;s feedback to improve the
+        generator&apos;s output, instead of discarding it. The downside is that
+        every image generated classified as &apos;fake&apos; would need to be trained
+        in the refinement layer.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1902.00813.pdf#cite.turner_metropolis-hastings_2018">https://arxiv.org/pdf/1902.00813.pdf</a>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Metropolis-Hastings Generative Adversarial Networks</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"><a href="https://arxiv.org/pdf/1811.11357.pdf">https://arxiv.org/pdf/1811.11357.pdf</a>
-      </td>
-    </tr>
-    <tr>
       <td style="text-align:left">Discriminator Rejection Sampling</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">This paper is cited by &apos;Collaborative Sampling in GANs&apos;. The
+        idea resolves around rejecting generated samples that deems as fake by
+        the discriminator. The approach improves the quality of image, at the cost
+        of image diversity.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1810.06758.pdf">https://arxiv.org/pdf/1810.06758.pdf</a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization</td>
       <td
-      style="text-align:left"></td>
-        <td style="text-align:left"><a href="https://arxiv.org/pdf/1703.06868.pdf">https://arxiv.org/pdf/1703.06868.pdf</a>
-        </td>
+      style="text-align:left">This paper enables real-time &amp; arbitary style transfer using AdaIn.
+        The core idea is that the variance and means is value contains style information.</td>
+        <td
+        style="text-align:left"><a href="https://arxiv.org/pdf/1703.06868.pdf">https://arxiv.org/pdf/1703.06868.pdf</a>
+          </td>
     </tr>
   </tbody>
 </table>
