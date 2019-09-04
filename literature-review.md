@@ -70,7 +70,7 @@
       <td style="text-align:left">Revisiting Batch Normalization For Practical Domain Adaptation</td>
       <td
       style="text-align:left">This paper observed that BN statistics in the two different datasets,
-        Caltech-256 &amp; Bing can be seperated almost perfectly with only a linear
+        Caltech-256 &amp; Bing can be separated almost perfectly with only a linear
         SVM. Hence, the authors attempted to modify BN layers to correct for the
         covariance shift and dataset bias with AdaBN. AdaBN worked beautifully
         for other datasets as well, and is independent from other domain adaptation
@@ -81,7 +81,11 @@
     </tr>
     <tr>
       <td style="text-align:left">Multimodal Unsupervised Image-to-Image Translation</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">In this paper, the authors aims to achieve multimodal image-to-image translation
+        as the title suggest. They do this by assuming that the style and content
+        can be disentangled. Once disentangled, each content can be translated
+        to various styles. The architecture uses AdaIn for style-coding and residual-blocks
+        to hold content information.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1812.02849v2.pdf">https://arxiv.org/pdf/1812.02849v2.pdf</a>
       </td>
     </tr>
