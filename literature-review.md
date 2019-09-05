@@ -85,15 +85,51 @@
         as the title suggest. They do this by assuming that the style and content
         can be disentangled. Once disentangled, each content can be translated
         to various styles. The architecture uses AdaIn for style-coding and residual-blocks
-        to hold content information.</td>
+        to hold content information. This architecture is very commonly used, to
+        encode styles into content. Authors also added some technical terms into
+        loss function which I do not understand yet. Great results, but I believe
+        it is because the network is trained on target domain and the content image
+        and target image have similar structure.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1812.02849v2.pdf">https://arxiv.org/pdf/1812.02849v2.pdf</a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial
         Networks</td>
+      <td style="text-align:left">This is the CycleGANs paper. They uses cycle-consistency constraint to
+        stabilize unpaired image--to-image translation. I believe all results are
+        curated since, I see in other papers that CycleGANs give poor results.
+        All other papers are most likely-curated also, need to be careful.</td>
+      <td
+      style="text-align:left"><a href="https://arxiv.org/pdf/1703.10593.pdf">https://arxiv.org/pdf/1703.10593.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Contrastive Adaptation Network for Unsupervised Domain Adaptation</td>
+      <td
+      style="text-align:left">Interesting idea to make use of class-awareness to improve the performance
+        of domain adaptation. I would be interested to see how the network performance
+        when the target domain do not contains same number of classes.</td>
+        <td
+        style="text-align:left"><a href="https://arxiv.org/pdf/1901.00976.pdf">https://arxiv.org/pdf/1901.00976.pdf</a>
+          </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Domain Adaptation Meets Disentangled Representation Learning and Style
+        Transfer</td>
+      <td style="text-align:left">This paper uses the relation between style-transfer and domain-adaptation.
+        For style-transfer, styles are domain-specific and contents are domain-generic.
+        For domain-adaptation, only domain-generic information can be adapted to
+        minimize negative transfer. The authors take advantage of this relationship
+        to design a 3-in-1 system for disentangled representation learning, style-transfer,
+        and domain-adaptation.</td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1712.09025.pdf">https://arxiv.org/pdf/1712.09025.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Simultaneous Deep Transfer Across Domains and Tasks</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"><a href="https://arxiv.org/pdf/1703.10593.pdf">https://arxiv.org/pdf/1703.10593.pdf</a>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1510.02192.pdf">https://arxiv.org/pdf/1510.02192.pdf</a>
       </td>
     </tr>
   </tbody>
