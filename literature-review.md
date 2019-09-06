@@ -219,12 +219,127 @@
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1906.03502.pdf">https://arxiv.org/pdf/1906.03502.pdf</a>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">Detach and Adapt: Learning Cross-Domain Disentangled Deep Representation</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1705.01314.pdf">https://arxiv.org/pdf/1705.01314.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Importance Weighted Adversarial Nets for Partial Domain Adaptation</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1803.09210.pdf">https://arxiv.org/pdf/1803.09210.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Efficient parametrization of multi-domain deep neural networks</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1803.10082.pdf">https://arxiv.org/pdf/1803.10082.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Unsupervised Domain Adaptation with Similarity Learning</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1711.08995.pdf">https://arxiv.org/pdf/1711.08995.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Camera Style Adaptation for Person Re-identification</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1711.10295.pdf">https://arxiv.org/pdf/1711.10295.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Domain Generalization with Adversarial Feature Learning</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://bit.ly/2lX0fQZ">https://bit.ly/2lX0fQZ</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Image to Image Translation for Domain Adaptation</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1712.00479.pdf">https://arxiv.org/pdf/1712.00479.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">AdaDepth: Unsupervised Content Congruent Adaptation for Depth Estimation</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1803.01599.pdf">https://arxiv.org/pdf/1803.01599.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Duplex Generative Adversarial Network for Unsupervised Domain Adaptation</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://bit.ly/2klnPGY">https://bit.ly/2klnPGY</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Conditional Generative Adversarial Network for Structured Domain Adaptation</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://weixianghong.github.io/publications/papers/CVPR_18.pdf">https://weixianghong.github.io/publications/papers/CVPR_18.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Cross-Domain Self-supervised Multi-task Feature Learning using Synthetic
+        Imagery</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1711.09082.pdf">https://arxiv.org/pdf/1711.09082.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Person Transfer GAN to Bridge Domain Gap for Person Re-Identification</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1711.08565.pdf">https://arxiv.org/pdf/1711.08565.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
   </tbody>
 </table>### Fourier Neural Network
 
 | Name | Summary | File |
 | :--- | :--- | :--- |
-|  |  |  |
+| Single-Image Depth Estimation Based on Fourier Domain Analysis |  | [https://bit.ly/2lH0kIk](https://bit.ly/2lH0kIk) |
 
 ### Network Architecture
 
@@ -733,6 +848,186 @@
         <td
         style="text-align:left"><a href="https://arxiv.org/pdf/1703.06868.pdf">https://arxiv.org/pdf/1703.06868.pdf</a>
           </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">SGAN: An Alternative Training of Generative Adversarial Networks</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1712.02330.pdf">https://arxiv.org/pdf/1712.02330.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">CartoonGAN: Generative Adversarial Networks for Photo Cartoonization</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://bit.ly/2lFooeI">https://bit.ly/2lFooeI</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Multi-Agent Diverse Generative Adversarial Networks</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1704.02906.pdf">https://arxiv.org/pdf/1704.02906.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Generate To Adapt: Aligning Domains using Generative Adversarial Networks</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1704.01705.pdf">https://arxiv.org/pdf/1704.01705.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Single Image Dehazing via Conditional Generative Adversarial Network</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://bit.ly/2kmBdur">https://bit.ly/2kmBdur</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Face Aging with Identity-Preserved Conditional Generative Adversarial
+        Networks</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://bit.ly/2kxODn9">https://bit.ly/2kxODn9</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Eye In-Painting with Exemplar Generative Adversarial Networks</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1712.03999.pdf">https://arxiv.org/pdf/1712.03999.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Look, Imagine and Match:Improving Textual-Visual Cross-Modal Retrieval
+        with Generative Models</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1711.06420.pdf">https://arxiv.org/pdf/1711.06420.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">FLIPDIAL: A Generative Model for Two-Way Visual Dialogue</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1802.03803.pdf">https://arxiv.org/pdf/1802.03803.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Logo Synthesis and Manipulation with Clustered Generative Adversarial
+        Networks</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1712.04407.pdf">https://arxiv.org/pdf/1712.04407.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Generative Adversarial Learning Towards Fast Weakly Supervised Detection</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://bit.ly/2lyTjtp">https://bit.ly/2lyTjtp</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">DA-GAN: Instance-level Image Translation by Deep Attention Generative
+        Adversarial Networks (with Supplementary Materials)</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1802.06454.pdf">https://arxiv.org/pdf/1802.06454.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Generative Image Inpainting with Contextual Attention</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1801.07892.pdf">https://arxiv.org/pdf/1801.07892.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Unsupervised Deep Generative Adversarial Hashing Network</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://bit.ly/2m1Szgy">https://bit.ly/2m1Szgy</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Image Blind Denoising With Generative Adversarial Network Based Noise
+        Modeling</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://bit.ly/2m1JuEr">https://bit.ly/2m1JuEr</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Attentive Generative Adversarial Network for Raindrop Removal from a Single
+        Image</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1711.10098.pdf">https://arxiv.org/pdf/1711.10098.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Learning to Generate Time-Lapse Videos Using Multi-Stage Dynamic Generative
+        Adversarial Networks</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1709.07592.pdf">https://arxiv.org/pdf/1709.07592.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Social GAN: Socially Acceptable Trajectories with Generative Adversarial
+        Networks</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1803.10892.pdf">https://arxiv.org/pdf/1803.10892.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Stacked Conditional Generative Adversarial Networks for Jointly Learning
+        Shadow Detection and Shadow Removal</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1712.02478.pdf">https://arxiv.org/pdf/1712.02478.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Global versus Localized Generative Adversarial Nets</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1711.06020.pdf">https://arxiv.org/pdf/1711.06020.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
     </tr>
   </tbody>
 </table>
