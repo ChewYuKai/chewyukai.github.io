@@ -40,3 +40,18 @@
 
 [https://entuedu-my.sharepoint.com/:p:/g/personal/chew0392\_e\_ntu\_edu\_sg/ES3pqnKKktZBtMwMksak2YQBq6w1PgAsyr0zoruVNL3yQQ?email=AdamsKong%40ntu.edu.sg&e=G7u9ZQ](https://entuedu-my.sharepoint.com/:p:/g/personal/chew0392_e_ntu_edu_sg/EQegMmNad89IglN1iFzAP60BK8kx9Ce8DmcmUrHqpE92iw?email=AdamsKong%40ntu.edu.sg&e=YAUjoB)
 
+## Session 3
+
+### Papers for discussion
+
+* Revisiting Batch Normalization For Practical Domain Adaptation
+* Adversarial Discriminative Domain Adaptation
+* Collaborative Sampling in Generative Adversarial Networks
+
+### Feedback
+
+* 
+### Slides
+
+[https://entuedu-my.sharepoint.com/:p:/g/personal/chew0392\_e\_ntu\_edu\_sg/EcVsECRVtZZOkpgTU0XHmccBsokz1qf\_PheuPmLbTV80KA?email=AdamsKong%40ntu.edu.sg&e=IbeTOs](https://entuedu-my.sharepoint.com/:p:/g/personal/chew0392_e_ntu_edu_sg/EcVsECRVtZZOkpgTU0XHmccBsokz1qf_PheuPmLbTV80KA?email=AdamsKong%40ntu.edu.sg&e=IbeTOs)
+
