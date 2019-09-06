@@ -140,12 +140,15 @@
         disentangled from content. In this case, blurring effect is disentangled
         instead of style. Can blurring be considered a style? What does not domain-shift
         of blurred image looked like? Does training on content information alone
-        better for discriminatory task?</td>
-        <td style="text-align:left"><a href="https://arxiv.org/pdf/1903.01594.pdf">https://arxiv.org/pdf/1903.01594.pdf</a>
-        </td>
+        better for discriminatory task? Is the deblurring network adding information,
+        or is it removing unimportant &apos;noise&apos;. From the papers, I infer
+        that the network is unable to disentangle domain specific information.</td>
+        <td
+        style="text-align:left"><a href="https://arxiv.org/pdf/1903.01594.pdf">https://arxiv.org/pdf/1903.01594.pdf</a>
+          </td>
     </tr>
     <tr>
-      <td style="text-align:left">Geometry-Aware Symmetric Domain Adaptation for Monocular Depth Estimati</td>
+      <td style="text-align:left">Geometry-Aware Symmetric Domain Adaptation for Monocular Depth Estimation</td>
       <td
       style="text-align:left"></td>
         <td style="text-align:left"><a href="https://arxiv.org/pdf/1904.01870.pdf">https://arxiv.org/pdf/1904.01870.pdf</a>
@@ -990,9 +993,11 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Disentangled Representation Learning GAN for Pose-Invariant Face Recognition</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://bit.ly/2jYjGZ4">https://bit.ly/2jYjGZ4</a>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
