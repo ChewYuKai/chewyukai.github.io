@@ -128,8 +128,95 @@
     </tr>
     <tr>
       <td style="text-align:left">Simultaneous Deep Transfer Across Domains and Tasks</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Don&apos;t understand</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1510.02192.pdf">https://arxiv.org/pdf/1510.02192.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Unsupervised Domain-Specific Deblurring via Disentangled Representations</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1903.01594.pdf">https://arxiv.org/pdf/1903.01594.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Geometry-Aware Symmetric Domain Adaptation for Monocular Depth Estimati</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1904.01870.pdf">https://arxiv.org/pdf/1904.01870.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Unsupervised Domain Adaptation using Feature-Whitening and Consensus Loss</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1903.03215.pdf">https://arxiv.org/pdf/1903.03215.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Weakly Supervised Open-set Domain Adaptation by Dual-domain Collaboration</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1904.13179.pdf">https://arxiv.org/pdf/1904.13179.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Domain-Symmetric Networks for Adversarial Domain Adaptation</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1904.04663.pdf">https://arxiv.org/pdf/1904.04663.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Universal Domain Adaptation</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://youkaichao.github.io/files/cvpr2019/1628.pdf">https://youkaichao.github.io/files/cvpr2019/1628.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">d-SNE: Domain Adaptation using Stochastic Neighborhood Embedding</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1905.12775.pdf">https://arxiv.org/pdf/1905.12775.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Domain Generalization by Solving Jigsaw Puzzles</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1903.06864.pdf">https://arxiv.org/pdf/1903.06864.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">CrDoCo: Pixel-Level Domain Transfer With Cross-Domain Consistency</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://bit.ly/2lGVfzK">https://bit.ly/2lGVfzK</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Generalizable Person Re-identification by Domain-Invariant Mapping Network</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="http://www.eecs.qmul.ac.uk/~js327/Doc/Publication/2019/cvpr2019_dimn.pdf">http://www.eecs.qmul.ac.uk/~js327/Doc/Publication/2019/cvpr2019_dimn.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Progressive Feature Alignment for Unsupervised Domain Adaptation</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1811.08585.pdf">https://arxiv.org/pdf/1811.08585.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Invariance Matters: Exemplar Memory for Domain Adaptive Person Re-identification</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1904.01990.pdf">https://arxiv.org/pdf/1904.01990.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Attending to Discriminative Certainty for Domain Adaptation</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1906.03502.pdf">https://arxiv.org/pdf/1906.03502.pdf</a>
       </td>
     </tr>
   </tbody>
