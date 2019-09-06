@@ -50,7 +50,11 @@
 
 ### Feedback
 
-* 
+* Narrowdown Topic
+* Faces?
+* Multi-modal hair stylist
+* Recommender?
+
 ### Slides
 
 [https://entuedu-my.sharepoint.com/:p:/g/personal/chew0392\_e\_ntu\_edu\_sg/EcVsECRVtZZOkpgTU0XHmccBsokz1qf\_PheuPmLbTV80KA?email=AdamsKong%40ntu.edu.sg&e=IbeTOs](https://entuedu-my.sharepoint.com/:p:/g/personal/chew0392_e_ntu_edu_sg/EcVsECRVtZZOkpgTU0XHmccBsokz1qf_PheuPmLbTV80KA?email=AdamsKong%40ntu.edu.sg&e=IbeTOs)
