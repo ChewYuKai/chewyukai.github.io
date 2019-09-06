@@ -135,7 +135,12 @@
     <tr>
       <td style="text-align:left">Unsupervised Domain-Specific Deblurring via Disentangled Representations</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">This paper aims to disentangle blurring effect from an blurred image.
+        This remains me of multi-model image-to-image translation where style is
+        disentangled from content. In this case, blurring effect is disentangled
+        instead of style. Can blurring be considered a style? What does not domain-shift
+        of blurred image looked like? Does training on content information alone
+        better for discriminatory task?</td>
         <td style="text-align:left"><a href="https://arxiv.org/pdf/1903.01594.pdf">https://arxiv.org/pdf/1903.01594.pdf</a>
         </td>
     </tr>
