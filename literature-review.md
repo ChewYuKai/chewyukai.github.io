@@ -308,29 +308,81 @@
         </td>
     </tr>
     <tr>
+      <td style="text-align:left">Unified Deep Supervised Domain Adaptation and Generalization</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1709.10190.pdf">https://arxiv.org/pdf/1709.10190.pdf</a>
+      </td>
     </tr>
     <tr>
+      <td style="text-align:left">Deeper, Broader and Artier Domain Generalization</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1710.03077.pdf">https://arxiv.org/pdf/1710.03077.pdf</a>
+      </td>
     </tr>
     <tr>
+      <td style="text-align:left">AutoDIAL: Automatic DomaIn Alignment Layers</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1704.08082.pdf">https://arxiv.org/pdf/1704.08082.pdf</a>
+      </td>
     </tr>
     <tr>
+      <td style="text-align:left">Domain-adaptive deep network compression</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1709.01041.pdf">https://arxiv.org/pdf/1709.01041.pdf</a>
+      </td>
     </tr>
     <tr>
+      <td style="text-align:left">PUnDA: Probabilistic Unsupervised Domain Adaptationfor Knowledge Transfer
+        Across Visual Categories</td>
       <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://bit.ly/2k77OUK">https://bit.ly/2k77OUK</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Associative Domain Adaptation</td>
       <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1708.00938.pdf">https://arxiv.org/pdf/1708.00938.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Efficient Online Local Metric Adaptation via Negative Samples for Person
+        Re-Identification</td>
       <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://bit.ly/2lLIe87">https://bit.ly/2lLIe87</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Fine-grained Recognition in the Wild: A Multi-Task Domain Adaptation Approach</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1709.02476.pdf">https://arxiv.org/pdf/1709.02476.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Open Set Domain Adaptation</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://bit.ly/2lF3axG">https://bit.ly/2lF3axG</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">When Unsupervised Domain Adaptation Meets Tensor Representations</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1707.05956.pdf">https://arxiv.org/pdf/1707.05956.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Show, Adapt and Tell: Adversarial Training of Cross-domain Image Captioner</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1705.00930.pdf">https://arxiv.org/pdf/1705.00930.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Semantic Image Synthesis via Adversarial Learning</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1707.06873.pdf">https://arxiv.org/pdf/1707.06873.pdf</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
@@ -374,7 +426,7 @@
 | Deep Clustering for Unsupervised Learning of Visual Features | This paper propose an architecture that can be leverage on the unlabeled datasets to learn discriminant features. Instead, pseudo-labels from k-means is used to guide training of network. | [https://arxiv.org/pdf/1807.05520.pdf](https://arxiv.org/pdf/1807.05520.pdf) |
 | Deep k-Means: Jointly clustering with k-Means and learning representations | Previous work alternates training of k-means and auto-encoder. Deep k-Means seek to remove the seam between these two algorithm, and join them to form a single framework. | [https://arxiv.org/pdf/1902.06938.pdf](https://arxiv.org/pdf/1902.06938.pdf) |
 | Label-Removed Generative Adversarial Networks Incorporating with K-Means | This paper introduce a way to prevent model collapse by using K-Means generated labels to guide network training. Though labeled-data is used, this architecture is grouped under _unconditional GAN_, the labels are not being used to condition the output_._ | [https://arxiv.org/pdf/1902.06938.pdf](https://arxiv.org/pdf/1902.06938.pdf) |
-| Unsupervised Visual Representation Learning by Context Prediction | This paper propose a interesting way for representation learning by training the network to predict the relative position of a source image to the target image. Experiment shows that once the authors removed so-called "trival" solutions that rely on low-level features, the network is able to start learning more advanced features. The author claims that theirs in the first example of unsupervised pre-training on a larger dataset could led to performance boost in a smaller dataset. | [https://arxiv.org/pdf/1603.08511.pdf](https://arxiv.org/pdf/1603.08511.pdf) |
+| Unsupervised Visual Representation Learning by Context Prediction | This paper propose a interesting way for representation learning by training the network to predict the relative position of a source image to the target image. Experiment shows that once the authors removed so-called "trival" solutions that rely on low-level features, the network is able to start learning more advanced features. The author claims that theirs in the first example of unsupervised pre-training on a larger dataset could led to performance boost in a smaller dataset. | [https://arxiv.org/pdf/1505.05192.pdf](https://arxiv.org/pdf/1505.05192.pdf) |
 | Unsupervised Representation Learning By Predicting Image Rotation | This paper propose a simple and, yet powerful approach that allows the learning of high-level semantic features, by predicting the rotational orientation. Compared to similar approaches, there is no need to additional pre-processing to avoid "trivial" solutions | [https://arxiv.org/pdf/1803.07728.pdf](https://arxiv.org/pdf/1803.07728.pdf) |
 | Colorful Image Colorization | The main focus of this paper is to use deep learning for multi-modal re-colorisation of images. On the side, the author endeavor into a cross-channel encoder and using the features learnt for classification task. Thus fur, I observed that self-supervised techniques can be broadly grouped into three styles: 1\) hiding information away from learner,  2\) feature learning before & after data augmentation, and 3\) self-labeling  | [https://arxiv.org/pdf/1603.08511.pdf](https://arxiv.org/pdf/1603.08511.pdf) |
 
@@ -1000,14 +1052,18 @@
         </td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Semi Supervised Semantic Segmentation Using Generative Adversarial Network</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://bit.ly/2kzaPNT">https://bit.ly/2kzaPNT</a>
+        </td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Shadow Detection with Conditional Generative Adversarial Networks</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://bit.ly/2lZbd8C">https://bit.ly/2lZbd8C</a>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
