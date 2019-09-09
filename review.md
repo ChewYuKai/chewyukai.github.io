@@ -54,6 +54,7 @@
 * Faces?
 * Multi-modal hair stylist
 * Recommender?
+* Want is on the paper is true, any other assumptions may not be applicable.
 
 ### Slides
 
