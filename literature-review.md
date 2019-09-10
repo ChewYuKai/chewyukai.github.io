@@ -80,29 +80,14 @@
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">Multimodal Unsupervised Image-to-Image Translation</td>
-      <td style="text-align:left">In this paper, the authors aims to achieve multimodal image-to-image translation
-        as the title suggest. They do this by assuming that the style and content
-        can be disentangled. Once disentangled, each content can be translated
-        to various styles. The architecture uses AdaIn for style-coding and residual-blocks
-        to hold content information. This architecture is very commonly used, to
-        encode styles into content. Authors also added some technical terms into
-        loss function which I do not understand yet. Great results, but I believe
-        it is because the network is trained on target domain and the content image
-        and target image have similar structure.</td>
-      <td style="text-align:left"><a href="https://arxiv.org/pdf/1812.02849v2.pdf">https://arxiv.org/pdf/1812.02849v2.pdf</a>
-      </td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial
-        Networks</td>
-      <td style="text-align:left">This is the CycleGANs paper. They uses cycle-consistency constraint to
-        stabilize unpaired image--to-image translation. I believe all results are
-        curated since, I see in other papers that CycleGANs give poor results.
-        All other papers are most likely-curated also, need to be careful.</td>
-      <td
-      style="text-align:left"><a href="https://arxiv.org/pdf/1703.10593.pdf">https://arxiv.org/pdf/1703.10593.pdf</a>
-        </td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">Contrastive Adaptation Network for Unsupervised Domain Adaptation</td>
@@ -148,16 +133,12 @@
           </td>
     </tr>
     <tr>
-      <td style="text-align:left">Geometry-Aware Symmetric Domain Adaptation for Monocular Depth Estimation</td>
-      <td
-      style="text-align:left"></td>
-        <td style="text-align:left"><a href="https://arxiv.org/pdf/1904.01870.pdf">https://arxiv.org/pdf/1904.01870.pdf</a>
-        </td>
-    </tr>
-    <tr>
       <td style="text-align:left">Unsupervised Domain Adaptation using Feature-Whitening and Consensus Loss</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">This paper whiten features all features to standardize them to a sphere.
+        Not sure about 2nd part on min-entropy consensus loss function. Interesting
+        to see how whitening affect performance of vanilla network on imageNet
+        dataset.</td>
         <td style="text-align:left"><a href="https://arxiv.org/pdf/1903.03215.pdf">https://arxiv.org/pdf/1903.03215.pdf</a>
         </td>
     </tr>
@@ -1066,14 +1047,29 @@
         </td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Multimodal Unsupervised Image-to-Image Translation</td>
+      <td style="text-align:left">In this paper, the authors aims to achieve multimodal image-to-image translation
+        as the title suggest. They do this by assuming that the style and content
+        can be disentangled. Once disentangled, each content can be translated
+        to various styles. The architecture uses AdaIn for style-coding and residual-blocks
+        to hold content information. This architecture is very commonly used, to
+        encode styles into content. Authors also added some technical terms into
+        loss function which I do not understand yet. Great results, but I believe
+        it is because the network is trained on target domain and the content image
+        and target image have similar structure.</td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1812.02849v2.pdf">https://arxiv.org/pdf/1812.02849v2.pdf</a>
+      </td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial
+        Networks</td>
+      <td style="text-align:left">This is the CycleGANs paper. They uses cycle-consistency constraint to
+        stabilize unpaired image--to-image translation. I believe all results are
+        curated since, I see in other papers that CycleGANs give poor results.
+        All other papers are most likely-curated also, need to be careful.</td>
+      <td
+      style="text-align:left"><a href="https://arxiv.org/pdf/1703.10593.pdf">https://arxiv.org/pdf/1703.10593.pdf</a>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
