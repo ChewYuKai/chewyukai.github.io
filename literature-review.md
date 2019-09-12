@@ -203,7 +203,10 @@
     <tr>
       <td style="text-align:left">d-SNE: Domain Adaptation using Stochastic Neighborhood Embedding</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">This paper claims to achieve domain generalization using d-SNE, and also
+        outperforms unsupervised techniques that have access to all samples in
+        target domain. If these claims are true, this paper will be a very interesting
+        paper.</td>
         <td style="text-align:left"><a href="https://arxiv.org/pdf/1905.12775.pdf">https://arxiv.org/pdf/1905.12775.pdf</a>
         </td>
     </tr>
