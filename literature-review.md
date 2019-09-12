@@ -80,14 +80,21 @@
         </td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Open set domain adaptation</td>
+      <td style="text-align:left">Interesting problem formulation where both source and larger dataset contains
+        unknown labels. The solution seems to be based on alignment. Not sure.
+        Dont understand technical implementation</td>
+      <td style="text-align:left"><a href="https://bit.ly/2lF3axG">https://bit.ly/2lF3axG</a>
+      </td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Open Set Domain Adaptation by Backpropagation</td>
+      <td style="text-align:left">This is proof that adversarial training is applicable to a wider use-case
+        compared to divergence/constrain-based technique. Constrain-based technique
+        imposes assumption that are not valid in the case of open dataset.</td>
+      <td
+      style="text-align:left"><a href="https://arxiv.org/pdf/1804.10427.pdf">https://arxiv.org/pdf/1804.10427.pdf</a>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">Contrastive Adaptation Network for Unsupervised Domain Adaptation</td>
@@ -145,19 +152,32 @@
     <tr>
       <td style="text-align:left">Weakly Supervised Open-set Domain Adaptation by Dual-domain Collaboration</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">This paper introduce collaborative domain adaptation where both target
+        and source domains are sparsely-labelled. I dont understand solution. Does
+        not seems like using adversarial method.</td>
         <td style="text-align:left"><a href="https://arxiv.org/pdf/1904.13179.pdf">https://arxiv.org/pdf/1904.13179.pdf</a>
         </td>
     </tr>
     <tr>
       <td style="text-align:left">Domain-Symmetric Networks for Adversarial Domain Adaptation</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Dont understand</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1904.04663.pdf">https://arxiv.org/pdf/1904.04663.pdf</a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Universal Domain Adaptation</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>This author published 3 papers in 2019. He is definitely a raising star
+          in domain adaptation. His universal domain adaptation architecture is amazing.
+          It relies on assumption that I believe to be very general.</p>
+        <p></p>
+        <p>E c&apos; p(d&apos;) &gt; E c p(d&apos;) &gt; E c q(d&apos;) &gt; E c&apos;
+          q(d)</p>
+        <p>E c&apos; p(H(y)) &lt; E c p(H(y)) &lt; E c q(H(y)) &lt; H c&apos; q(H
+          (y)</p>
+        <p></p>
+        <p>Read the paper.</p>
+      </td>
       <td style="text-align:left"><a href="https://youkaichao.github.io/files/cvpr2019/1628.pdf">https://youkaichao.github.io/files/cvpr2019/1628.pdf</a>
       </td>
     </tr>
