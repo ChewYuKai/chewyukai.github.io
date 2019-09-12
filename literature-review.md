@@ -160,7 +160,7 @@
     </tr>
     <tr>
       <td style="text-align:left">Domain-Symmetric Networks for Adversarial Domain Adaptation</td>
-      <td style="text-align:left">Dont understand</td>
+      <td style="text-align:left">Don&apos;t understand</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1904.04663.pdf">https://arxiv.org/pdf/1904.04663.pdf</a>
       </td>
     </tr>
@@ -173,13 +173,32 @@
         <p></p>
         <p>E c&apos; p(d&apos;) &gt; E c p(d&apos;) &gt; E c q(d&apos;) &gt; E c&apos;
           q(d)</p>
-        <p>E c&apos; p(H(y)) &lt; E c p(H(y)) &lt; E c q(H(y)) &lt; H c&apos; q(H
+        <p>E c&apos; p(H(y)) &lt; E c p(H(y)) &lt; E c q(H(y)) &lt; E c&apos; q(H
           (y)</p>
         <p></p>
-        <p>Read the paper.</p>
+        <p>In additional, the author did not use the adversarial component as it
+          was trained to be fooled. Instead, he used a domain similarity metric constructed
+          from the above assumption to determined out-of-class examples. It reminds
+          me of a hypothesis that implies that a collaborative task in GANs help
+          to stablize and improve the overall performance of the network.</p>
+        <p></p>
+        <p>High-quality paper.</p>
       </td>
       <td style="text-align:left"><a href="https://youkaichao.github.io/files/cvpr2019/1628.pdf">https://youkaichao.github.io/files/cvpr2019/1628.pdf</a>
       </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Learning to Transfer Examples for Partial Domain Adaptation</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://youkaichao.github.io/files/cvpr2019/1855.pdf">https://youkaichao.github.io/files/cvpr2019/1855.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Towards Accurate Model Selection in Deep Unsupervised Domain Adaptation</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://youkaichao.github.io/files/icml2019/923.pdf">https://youkaichao.github.io/files/icml2019/923.pdf</a>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">d-SNE: Domain Adaptation using Stochastic Neighborhood Embedding</td>
