@@ -225,14 +225,24 @@
     </tr>
     <tr>
       <td style="text-align:left">Domain Generalization by Solving Jigsaw Puzzles</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">A uninteresting paper with little to no theory of its own. The main idea
+        is to use the well-known self-supervising techniques for domain generalization.
+        No benchmark for office-31 dataset which is the standard test. Did not
+        read thoroughly, so I might be wrong.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1903.06864.pdf">https://arxiv.org/pdf/1903.06864.pdf</a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">CrDoCo: Pixel-Level Domain Transfer With Cross-Domain Consistency</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">
+        <p>Feature-level vs Pixel-level? I only know feature level domain adaptation.
+          This paper let me understand that CycleGANs is also part of domain-adaptation
+          that uses pixel-to-pixel translation.</p>
+        <p>This literature is closer to CycleGAN which the author coined as &quot;dense
+          prediction&quot; i.e. pixel-level prediction. It assumes that two the local
+          task of source and target domain yields the same results.</p>
+        </td>
         <td style="text-align:left"><a href="https://bit.ly/2lGVfzK">https://bit.ly/2lGVfzK</a>
         </td>
     </tr>
