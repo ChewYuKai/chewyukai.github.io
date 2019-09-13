@@ -258,7 +258,20 @@
     <tr>
       <td style="text-align:left">Progressive Feature Alignment for Unsupervised Domain Adaptation</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">
+        <p>This is the first paper I have read that implies that pseudo-labels are
+          being used in the field of domain adaptation. According to the author,
+          many papers assumes that the pseudo labels assigned to each samples to
+          guide the network during training time, and the performance of these network
+          are held back by these falsely-labeled samples.</p>
+        <p>I don&apos;t understand the technical jargon that are the main contribution
+          of the paper.</p>
+        <p>Hard samples are those that are dissimilar to source domain that are far
+          away. False-easy samples lies in the decision boundary of the wrong class,
+          resulting in false labels despite high-confidence. The so-called &quot;Easy-to-Hard
+          Transfer Strategy&quot; is somehow going to solve this. I havent read finish
+          yet.</p>
+        </td>
         <td style="text-align:left"><a href="https://arxiv.org/pdf/1811.08585.pdf">https://arxiv.org/pdf/1811.08585.pdf</a>
         </td>
     </tr>
