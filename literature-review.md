@@ -249,7 +249,9 @@
     <tr>
       <td style="text-align:left">Generalizable Person Re-identification by Domain-Invariant Mapping Network</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">Domain generalization without target samples, or re-training. It seems
+        too good to be true. Although it is close to domain adaption, I am dont
+        understand much. Come back to finish this paper soon.</td>
         <td style="text-align:left"><a href="http://www.eecs.qmul.ac.uk/~js327/Doc/Publication/2019/cvpr2019_dimn.pdf">http://www.eecs.qmul.ac.uk/~js327/Doc/Publication/2019/cvpr2019_dimn.pdf</a>
         </td>
     </tr>
