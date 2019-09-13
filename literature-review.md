@@ -211,6 +211,14 @@
         <p>Domain adaptation strategy: 1) Domain transformation from target to source,
           2) Latent-space transformation to learn domain-invariant features which
           maps both source and target domain into a common latent space.</p>
+        <p>With only 3 samples per class, this paper managed to outperform other
+          techniques that uses all of the target domain. The logic behind this code
+          is to minimize the inverse-probability for class matching, with probability
+          calculated using distance between the source and target samples. The main
+          assumption is that we want intra-class probability to be maximized, and
+          inter-class probability to be minimized.</p>
+        <p>Not sure, if I understand the exact implementation, but I think I understand
+          the big picture. I may need to implement to have know what I messed out.</p>
         </td>
         <td style="text-align:left"><a href="https://arxiv.org/pdf/1905.12775.pdf">https://arxiv.org/pdf/1905.12775.pdf</a>
         </td>
