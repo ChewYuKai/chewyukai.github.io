@@ -278,9 +278,11 @@
     <tr>
       <td style="text-align:left">Invariance Matters: Exemplar Memory for Domain Adaptive Person Re-identification</td>
       <td
-      style="text-align:left"></td>
-        <td style="text-align:left"><a href="https://arxiv.org/pdf/1904.01990.pdf">https://arxiv.org/pdf/1904.01990.pdf</a>
-        </td>
+      style="text-align:left">This paper is about domain generalization, but I do not see any component
+        that domain generlization capabilites. I am unfamilar with ReId technology.</td>
+        <td
+        style="text-align:left"><a href="https://arxiv.org/pdf/1904.01990.pdf">https://arxiv.org/pdf/1904.01990.pdf</a>
+          </td>
     </tr>
     <tr>
       <td style="text-align:left">Attending to Discriminative Certainty for Domain Adaptation</td>
