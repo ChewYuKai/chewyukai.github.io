@@ -180,7 +180,7 @@
           was trained to be fooled. Instead, he used a domain similarity metric constructed
           from the above assumption to determined out-of-class examples. It reminds
           me of a hypothesis that implies that a collaborative task in GANs help
-          to stablize and improve the overall performance of the network.</p>
+          to stabilize and improve the overall performance of the network.</p>
         <p></p>
         <p>High-quality paper.</p>
       </td>
@@ -279,100 +279,119 @@
       <td style="text-align:left">Invariance Matters: Exemplar Memory for Domain Adaptive Person Re-identification</td>
       <td
       style="text-align:left">This paper is about domain generalization, but I do not see any component
-        that domain generlization capabilites. I am unfamilar with ReId technology.</td>
+        that domain generlization capabilites. I am unfamilar with ReID technology.</td>
         <td
         style="text-align:left"><a href="https://arxiv.org/pdf/1904.01990.pdf">https://arxiv.org/pdf/1904.01990.pdf</a>
           </td>
     </tr>
     <tr>
       <td style="text-align:left">Attending to Discriminative Certainty for Domain Adaptation</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">This paper is used to identify areas of an image that can be adapted,
+        instead of using the entire image. Maybe this approach is a way for unsupervised
+        attention i.e. no pixel level labeling. The results are impressive as one
+        of the highest accuracy model. Unlike universal domain adaptation, this
+        model attempt to find areas of a images that can be adapted. Maybe can
+        combine with universal domain adaptation</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1906.03502.pdf">https://arxiv.org/pdf/1906.03502.pdf</a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Detach and Adapt: Learning Cross-Domain Disentangled Deep Representation</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">Looks interesting. I dont understand.</td>
         <td style="text-align:left"><a href="https://arxiv.org/pdf/1705.01314.pdf">https://arxiv.org/pdf/1705.01314.pdf</a>
         </td>
     </tr>
     <tr>
       <td style="text-align:left">Importance Weighted Adversarial Nets for Partial Domain Adaptation</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">Accuracy is lower than universal domain adaptation which is more general
+        and provides more explanation.</td>
         <td style="text-align:left"><a href="https://arxiv.org/pdf/1803.09210.pdf">https://arxiv.org/pdf/1803.09210.pdf</a>
         </td>
     </tr>
     <tr>
       <td style="text-align:left">Efficient parametrization of multi-domain deep neural networks</td>
       <td
-      style="text-align:left"></td>
-        <td style="text-align:left"><a href="https://arxiv.org/pdf/1803.10082.pdf">https://arxiv.org/pdf/1803.10082.pdf</a>
-        </td>
+      style="text-align:left">Interesting idea of a 3-in-1 architecture for multi-tasking, multi-domain
+        &amp; lifelong learning. I was expecting some explanation, but instead
+        got only experimental results. In a nutshell, this paper is about how to
+        most efficiently share parameters for the above three objectives.</td>
+        <td
+        style="text-align:left"><a href="https://arxiv.org/pdf/1803.10082.pdf">https://arxiv.org/pdf/1803.10082.pdf</a>
+          </td>
     </tr>
     <tr>
       <td style="text-align:left">Unsupervised Domain Adaptation with Similarity Learning</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"><a href="https://arxiv.org/pdf/1711.08995.pdf">https://arxiv.org/pdf/1711.08995.pdf</a>
-      </td>
+      <td style="text-align:left">Replacing traditional softmax layer with similarity comparison with each
+        class prototype. Shorting distance with class-avg is the predicted class.</td>
+      <td
+      style="text-align:left"><a href="https://arxiv.org/pdf/1711.08995.pdf">https://arxiv.org/pdf/1711.08995.pdf</a>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">Camera Style Adaptation for Person Re-identification</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Style-transfer using &quot;Camera-Style&quot; for image augmentation for
+        persion ReID.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1711.10295.pdf">https://arxiv.org/pdf/1711.10295.pdf</a>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Domain Generalization with Adversarial Feature Learning</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"><a href="https://bit.ly/2lX0fQZ">https://bit.ly/2lX0fQZ</a>
-      </td>
-    </tr>
-    <tr>
       <td style="text-align:left">Image to Image Translation for Domain Adaptation</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>This paper is about image-to-image translation using adversarial encoder.
+          The network have 3 tasks. Encoding &amp; Decoding in source domain, Encoding
+          &amp; Decoding in target domain, Encoding &amp; Decoding across source
+          &amp; target domain.</p>
+        <p>Seems to me like multi-tasking. However, multi-tasking sacrifice accuracy
+          for generalization, this method achieved avg accuracy of 70~% for office-31
+          data set. Much lower than state-of-the-art of 89-90+%.</p>
+        <p>Interesting architecture I guess.</p>
+      </td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1712.00479.pdf">https://arxiv.org/pdf/1712.00479.pdf</a>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">AdaDepth: Unsupervised Content Congruent Adaptation for Depth Estimation</td>
-      <td
-      style="text-align:left"></td>
-        <td style="text-align:left"><a href="https://arxiv.org/pdf/1803.01599.pdf">https://arxiv.org/pdf/1803.01599.pdf</a>
-        </td>
-    </tr>
-    <tr>
       <td style="text-align:left">Duplex Generative Adversarial Network for Unsupervised Domain Adaptation</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">
+        <p>Interesting architecture design. This approach uses a generative design
+          instead of discriminative design. Ds is trained using actual labels, while
+          Dt is trained using pseudo labels. Hence, accuracy of pseudo labels will
+          affect performance greatly. &quot;Progressive Feature Alignment for Unsupervised
+          Domain Adaptation&quot; paper have some technique to address wrong pseudo-labels.</p>
+        <p>The rationale for this design is that the generator will need domain-invariant
+          encoding to fool both Ds &amp; Dt.</p>
+        <p>Accuracy on Office-31 seems to beat SOTA for previous years, but it is
+          far behind same year SOTA.</p>
+        </td>
         <td style="text-align:left"><a href="https://bit.ly/2klnPGY">https://bit.ly/2klnPGY</a>
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">Conditional Generative Adversarial Network for Structured Domain Adaptation</td>
-      <td
-      style="text-align:left"></td>
-        <td style="text-align:left"><a href="https://weixianghong.github.io/publications/papers/CVPR_18.pdf">https://weixianghong.github.io/publications/papers/CVPR_18.pdf</a>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Cross-Domain Self-supervised Multi-task Feature Learning using Synthetic
-        Imagery</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"><a href="https://arxiv.org/pdf/1711.09082.pdf">https://arxiv.org/pdf/1711.09082.pdf</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Person Transfer GAN to Bridge Domain Gap for Person Re-Identification</td>
-      <td
-      style="text-align:left"></td>
-        <td style="text-align:left"><a href="https://arxiv.org/pdf/1711.08565.pdf">https://arxiv.org/pdf/1711.08565.pdf</a>
-        </td>
-    </tr>
-    <tr>
       <td style="text-align:left">Unified Deep Supervised Domain Adaptation and Generalization</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>Similar to &quot;d-SNE: Domain Adaptation using Stochastic Neighborhood
+          Embedding&quot; where only few labelled examples from target data set is
+          needed. It seems to me that this approach is semi-supervised, instead of
+          supervised. I guess it can be both as the author mentioned that &quot;We
+          aim at handling cases where there is only one target labeled sample, and
+          there can even be some classes with no target samples at all&quot;. In
+          summary, this paper tries to use limited labeled images as as a &quot;anchor
+          point&quot; (my own words, no the author&apos;s) to calculate the known
+          disparity between the target and source, and using that information to
+          extrapolate to other other unlabeled target images.</p>
+        <p>Not 100% sure of the technical details. This is closer to domain generalization.
+          Authors did not used office-31 as benchmark
+          <br />
+        </p>
+        <p>f = h.g, g: X -&gt; Z, h: Z-&gt; Y</p>
+        <p>Therefore, features invariant should be at g. Authors propose to use shared
+          weighs in g.</p>
+        <p>Samples of the same class are mapped together in SDA, unlike UDA. This
+          addresses one of my concerns where class-alignment between domains are
+          not enforced. The phenomenon is coined as &quot;semantic alignment&quot;</p>
+      </td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1709.10190.pdf">https://arxiv.org/pdf/1709.10190.pdf</a>
       </td>
     </tr>
