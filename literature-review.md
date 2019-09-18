@@ -381,8 +381,7 @@
           point&quot; (my own words, no the author&apos;s) to calculate the known
           disparity between the target and source, and using that information to
           extrapolate to other other unlabeled target images.</p>
-        <p>Not 100% sure of the technical details. This is closer to domain generalization.
-          Authors did not used office-31 as benchmark
+        <p>Not 100% sure of the technical implementation.
           <br />
         </p>
         <p>f = h.g, g: X -&gt; Z, h: Z-&gt; Y</p>
