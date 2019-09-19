@@ -395,14 +395,10 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Deeper, Broader and Artier Domain Generalization</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"><a href="https://arxiv.org/pdf/1710.03077.pdf">https://arxiv.org/pdf/1710.03077.pdf</a>
-      </td>
-    </tr>
-    <tr>
       <td style="text-align:left">AutoDIAL: Automatic DomaIn Alignment Layers</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">I am interesting in implementing this. However, I cannot understand the
+        implementation details. I need to learn basic back-propagation. Appendix
+        of paper is important.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1704.08082.pdf">https://arxiv.org/pdf/1704.08082.pdf</a>
       </td>
     </tr>
@@ -413,7 +409,7 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">PUnDA: Probabilistic Unsupervised Domain Adaptationfor Knowledge Transfer
+      <td style="text-align:left">PUnDA: Probabilistic Unsupervised Domain Adaptation for Knowledge Transfer
         Across Visual Categories</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"><a href="https://bit.ly/2k77OUK">https://bit.ly/2k77OUK</a>
@@ -421,16 +417,15 @@
     </tr>
     <tr>
       <td style="text-align:left">Associative Domain Adaptation</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"><a href="https://arxiv.org/pdf/1708.00938.pdf">https://arxiv.org/pdf/1708.00938.pdf</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Efficient Online Local Metric Adaptation via Negative Samples for Person
-        Re-Identification</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"><a href="https://bit.ly/2lLIe87">https://bit.ly/2lLIe87</a>
-      </td>
+      <td style="text-align:left">The idea of this paper is similar to &quot;Contrastive Adaptation Network
+        for Unsupervised Domain Adaptation&quot;, where the labels from source
+        dataset is used to enforce an constraint on the features on the target
+        dataset. The difference between the two papers are contrastive vs associative.
+        I believe this idea assumes that have a implicit assumption that the number
+        of classes across domain remains the constant. Not relevant for me.</td>
+      <td
+      style="text-align:left"><a href="https://arxiv.org/pdf/1708.00938.pdf">https://arxiv.org/pdf/1708.00938.pdf</a>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">Fine-grained Recognition in the Wild: A Multi-Task Domain Adaptation Approach</td>
