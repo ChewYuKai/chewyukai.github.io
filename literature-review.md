@@ -430,45 +430,31 @@
     <tr>
       <td style="text-align:left">Fine-grained Recognition in the Wild: A Multi-Task Domain Adaptation Approach</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">Fine-grain domain adaptation seems to be a new field with this model claiming
+        to have achieved 19.1% accuracy (which is low). Main challenges of fine-grain
+        DA is the limited availability of dataset. This method make use of a attributes
+        to improve object classification (a term that I am unfamiliar with in the
+        context of deep learning)</td>
         <td style="text-align:left"><a href="https://arxiv.org/pdf/1709.02476.pdf">https://arxiv.org/pdf/1709.02476.pdf</a>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Open Set Domain Adaptation</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"><a href="https://bit.ly/2lF3axG">https://bit.ly/2lF3axG</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">When Unsupervised Domain Adaptation Meets Tensor Representations</td>
-      <td
-      style="text-align:left"></td>
-        <td style="text-align:left"><a href="https://arxiv.org/pdf/1707.05956.pdf">https://arxiv.org/pdf/1707.05956.pdf</a>
         </td>
     </tr>
     <tr>
       <td style="text-align:left">Show, Adapt and Tell: Adversarial Training of Cross-domain Image Captioner</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">Not in scope, but looks interesting. The model is using paired images-words
+        in source domain to train unpaired images-words in target domain, using
+        adversarial methods. It seems to me like its more of a task transfer, as
+        the style of wording in the target domain is different. Perhaps its a mixture
+        of domain and task transfer.</td>
         <td style="text-align:left"><a href="https://arxiv.org/pdf/1705.00930.pdf">https://arxiv.org/pdf/1705.00930.pdf</a>
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">Semantic Image Synthesis via Adversarial Learning</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"><a href="https://arxiv.org/pdf/1707.06873.pdf">https://arxiv.org/pdf/1707.06873.pdf</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Maximum Classifier Discrepancy for Unsupervised Domain Adaptation</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://bit.ly/2GwJUuK">https://bit.ly/2GwJUuK</a>
+        </td>
     </tr>
   </tbody>
 </table>### Fourier Neural Network
