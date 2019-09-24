@@ -974,20 +974,35 @@
     <tr>
       <td style="text-align:left">SGAN: An Alternative Training of Generative Adversarial Networks</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">I am not convinced of this method proposed by this paper. Results shown
+        in this paper is not impressive. There is no theory, and result is not
+        good (my opinion).</td>
         <td style="text-align:left"><a href="https://arxiv.org/pdf/1712.02330.pdf">https://arxiv.org/pdf/1712.02330.pdf</a>
         </td>
     </tr>
     <tr>
       <td style="text-align:left">CartoonGAN: Generative Adversarial Networks for Photo Cartoonization</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">CycleGAN is not good at preserving edges. So, authors artificial remove
+        edges from scene to allow the network to include. They initialize GANs
+        to preserve only content before training. Seems like a task-specific improvement.
+        But, I believe that some ideas can be reused.</td>
         <td style="text-align:left"><a href="https://bit.ly/2lFooeI">https://bit.ly/2lFooeI</a>
         </td>
     </tr>
     <tr>
       <td style="text-align:left">Multi-Agent Diverse Generative Adversarial Networks</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>This paper proposed MAD-GANS. Multi-generators &amp; Single Discriminator
+          and enforce diversity between generators, which directed each generator
+          towards a different modality. Hence, addressing modal collapse. To enforce
+          dissimilarity between the generators, the loss function of the discriminator
+          is modified, such that it have to guess the exact generator which produced
+          the image. I believe this will also help GANs to converge by making discrimination
+          harder, hence preventing D from being too strong.</p>
+        <p>Weakness of this approach is that, the number of modes must match the
+          number of generators for best results.</p>
+      </td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1704.02906.pdf">https://arxiv.org/pdf/1704.02906.pdf</a>
       </td>
     </tr>
