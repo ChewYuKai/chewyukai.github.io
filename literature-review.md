@@ -1053,13 +1053,13 @@
           valley, where humans can easily pickup on small errors. Secondly, normal
           GANs cannot augment the eyes without disturbing the rest of the images.
           Thirdly, the in-painted eyes need to blend-in with the rest of the image,
-          while perserving person-specific features.</p>
+          while preserving person-specific features.</p>
         <p>Authors proposed two methods: 1) Reference image, and 2) Code-based in-painting.</p>
         <p>Both methods use an exemplar image as reference. However, the code-based
           approach first encodes the reference image before conditioning the generator.
           The discriminator differentiate using the code, instead of the whole image.</p>
         <p>
-          <br />I believe examplar concept is interesting and can be utilized for other
+          <br />I believe exemplar concept is interesting and can be utilized for other
           applications.</p>
         </td>
         <td style="text-align:left"><a href="https://arxiv.org/pdf/1712.03999.pdf">https://arxiv.org/pdf/1712.03999.pdf</a>
@@ -1081,7 +1081,19 @@
     <tr>
       <td style="text-align:left">Logo Synthesis and Manipulation with Clustered Generative Adversarial
         Networks</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>This paper introduces Layer-conditioning GANs where the pseudo label is
+          obtain autoencoder clustering/resnet classifier clustering, which are conditioned
+          at all layers. From previous papers, conditioning at each layers will influence
+          the higher-to-lower level details, depending on the depth of layers conditioned.
+          Also authors used gaussian blurring to help stablised training of GANs.</p>
+        <p>ACGANs have many qualitative advantages in terms of image diversity, but
+          LCGANs allows &quot;smooth&quot; transition between logos, which is a beneficial
+          property for the intended use-case.
+          <br />The authors also managed to obtained &quot;sharping&quot; vector by subtracting
+          z-encoding of blur images from sharp images, which can be added to blur
+          images to sharpen them (No ideas how this works, but maybe worth exploring).</p>
+      </td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1712.04407.pdf">https://arxiv.org/pdf/1712.04407.pdf</a>
       </td>
     </tr>
