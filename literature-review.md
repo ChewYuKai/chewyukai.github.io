@@ -456,6 +456,13 @@
         <td style="text-align:left"><a href="https://bit.ly/2GwJUuK">https://bit.ly/2GwJUuK</a>
         </td>
     </tr>
+    <tr>
+      <td style="text-align:left">Generate To Adapt: Aligning Domains using Generative Adversarial Networks</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1704.01705.pdf">https://arxiv.org/pdf/1704.01705.pdf</a>
+        </td>
+    </tr>
   </tbody>
 </table>### Fourier Neural Network
 
@@ -1007,16 +1014,19 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Generate To Adapt: Aligning Domains using Generative Adversarial Networks</td>
-      <td
-      style="text-align:left"></td>
-        <td style="text-align:left"><a href="https://arxiv.org/pdf/1704.01705.pdf">https://arxiv.org/pdf/1704.01705.pdf</a>
-        </td>
-    </tr>
-    <tr>
       <td style="text-align:left">Single Image Dehazing via Conditional Generative Adversarial Network</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">
+        <p>Great top-down paper. Starting with an objective to de-haze images. From
+          applying existing techniques to expose flaws, to proposing task-specific
+          solutions to bypass the limitations, until the ending model produces good
+          result. The paper also discuss limitation of approach i.e light hazing/
+          night hazing.</p>
+        <p>The authors made extensive use of synthetic data generated using the hazing
+          model and image guided filtering method.</p>
+        <p>I believe that the ability to generate synthetic data is key for producing
+          papers like this one.</p>
+        </td>
         <td style="text-align:left"><a href="https://bit.ly/2kmBdur">https://bit.ly/2kmBdur</a>
         </td>
     </tr>
