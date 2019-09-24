@@ -1048,7 +1048,14 @@
     <tr>
       <td style="text-align:left">Eye In-Painting with Exemplar Generative Adversarial Networks</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">
+        <p>This paper is about in-painting eyes. The challenges faced is the uncanny
+          valley, where humans can easily pickup on small errors. Secondly, normal
+          GANs cannot augment the eyes without disturbing the rest of the images.
+          Thirdly, the in-painted eyes need to blend-in with the rest of the image,
+          while perserving person-specific features.</p>
+        <p>Authors proposed two methodsL: 1) Reference image</p>
+        </td>
         <td style="text-align:left"><a href="https://arxiv.org/pdf/1712.03999.pdf">https://arxiv.org/pdf/1712.03999.pdf</a>
         </td>
     </tr>
