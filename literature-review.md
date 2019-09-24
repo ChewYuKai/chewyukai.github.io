@@ -1033,7 +1033,15 @@
     <tr>
       <td style="text-align:left">Face Aging with Identity-Preserved Conditional Generative Adversarial
         Networks</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Similar to &quot;Single Image Dehazing via Conditional Generative Adversarial
+        Network&quot;, starts with vanilla GANs. Then, moved to LSGANs for better
+        stablility and better quality iimages. Then, introduces identity-preserving
+        module to maintain high-level content features at earlier layers, while
+        allowing lower-level &apos;age&apos; related features to vary. Lastly,
+        age loss is introduced to allow correct aged images to be generated.
+        <br
+        />Start with generic case and incrementally solve problems.
+        <br />Interesting application: Aged-faced detection.</td>
       <td style="text-align:left"><a href="https://bit.ly/2kxODn9">https://bit.ly/2kxODn9</a>
       </td>
     </tr>
