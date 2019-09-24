@@ -1054,7 +1054,7 @@
           GANs cannot augment the eyes without disturbing the rest of the images.
           Thirdly, the in-painted eyes need to blend-in with the rest of the image,
           while perserving person-specific features.</p>
-        <p>Authors proposed two methodsL: 1) Reference image</p>
+        <p>Authors proposed two methods: 1) Reference image, and 2) Code-based in-painting.</p>
         </td>
         <td style="text-align:left"><a href="https://arxiv.org/pdf/1712.03999.pdf">https://arxiv.org/pdf/1712.03999.pdf</a>
         </td>
