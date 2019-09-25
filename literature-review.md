@@ -1160,7 +1160,15 @@
     <tr>
       <td style="text-align:left">Image Blind Denoising With Generative Adversarial Network Based Noise
         Modeling</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>Interesting paper that uses GAN for noising modelling. Then the trained
+          GANs is used to add noise to clean images, which will be used as paired
+          examples for training the denoiser. My thoughts is that the so called &quot;clean
+          images&quot; are critical for this architecture to work. Depending on the
+          standards set for &quot;clean&quot;, results may vary.</p>
+        <p>I believe that this work diverge from Noise2Noise. (Noise2Noise is a Good
+          paper)</p>
+      </td>
       <td style="text-align:left"><a href="https://bit.ly/2m1JuEr">https://bit.ly/2m1JuEr</a>
       </td>
     </tr>
