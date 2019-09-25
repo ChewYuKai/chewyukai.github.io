@@ -1123,8 +1123,21 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Generative Image Inpainting with Contextual Attention</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Generative Image In-painting with Contextual Attention</td>
+      <td style="text-align:left">
+        <p>This paper improves on previous works where image in-painting copies surrounding
+          textures into the empty space. The approach works only if the scene in
+          general consists of repeating patterns, and works well for in-painting
+          in the background. The authors improves existing work by enabling in-painting
+          of content structure such as faces and objects.</p>
+        <p>In the lit review section, the authors argues that CNN have trouble modelling
+          long-range correlation, as two pixels that 64 pixels apart requires at
+          large number of 3x3 conv such that they are within the same receptive field.</p>
+        <p>The weights of pixels with closest known pixel is higher, using concept
+          from reinforced learning for delayed gratification. Also authors use coarse
+          in-painting followed by fine in-painting to achieve better novel reconstruction
+          for faces &amp; objects.</p>
+      </td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1801.07892.pdf">https://arxiv.org/pdf/1801.07892.pdf</a>
       </td>
     </tr>
