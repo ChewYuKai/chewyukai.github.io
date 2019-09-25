@@ -1100,14 +1100,25 @@
     <tr>
       <td style="text-align:left">Generative Adversarial Learning Towards Fast Weakly Supervised Detection</td>
       <td
-      style="text-align:left"></td>
-        <td style="text-align:left"><a href="https://bit.ly/2lyTjtp">https://bit.ly/2lyTjtp</a>
-        </td>
+      style="text-align:left">This paper propose using GANs to speed up existing weakly supervised object
+        detection. Weakly supervised detection is outside my scope, but there may
+        be some interesting ideas. I don&apos;t really understand this.</td>
+        <td
+        style="text-align:left"><a href="https://bit.ly/2lyTjtp">https://bit.ly/2lyTjtp</a>
+          </td>
     </tr>
     <tr>
       <td style="text-align:left">DA-GAN: Instance-level Image Translation by Deep Attention Generative
         Adversarial Networks (with Supplementary Materials)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>This paper introduces attention mechanism to achieve better results with
+          lesser semantic and structural artifacts. Another benefit is the domain
+          adaptation capability. My opinion is that the paper is poorly written and
+          many components are not well explained. Although results are good, the
+          reasoning and motivation of each new component is not clear.</p>
+        <p>For example, what is instance-level? Why use Deep Attention Encoder? F
+          = DAE * G is before explaining what it is. Great results, Terrible writing.</p>
+      </td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1802.06454.pdf">https://arxiv.org/pdf/1802.06454.pdf</a>
       </td>
     </tr>
