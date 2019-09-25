@@ -1143,7 +1143,17 @@
     </tr>
     <tr>
       <td style="text-align:left">Unsupervised Deep Generative Adversarial Hashing Network</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>Unsupervised GANs hashing seems to be quite similar to unsupervised representation
+          learning. However, hashing looks like to have additional use cases, such
+          as image retrieval.</p>
+        <p>Largely, the architecture is very similar to ACGANs w/o categorical conditioning.
+          The main difference is the output hash, several ideal properties of a &quot;good
+          hash&quot; is enforced in the loss function, such as minimum entropy bits,
+          uniform frequency bits, consistent bits &amp; independent bits. At least,
+          that is my understanding.</p>
+        <p>Perhaps some kind of hierarchical hashing is possible.</p>
+      </td>
       <td style="text-align:left"><a href="https://bit.ly/2m1Szgy">https://bit.ly/2m1Szgy</a>
       </td>
     </tr>
