@@ -1175,9 +1175,15 @@
     <tr>
       <td style="text-align:left">Attentive Generative Adversarial Network for Raindrop Removal from a Single
         Image</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"><a href="https://arxiv.org/pdf/1711.10098.pdf">https://arxiv.org/pdf/1711.10098.pdf</a>
-      </td>
+      <td style="text-align:left">This paper is able using attention models, as a prior to aid in the reconstruction
+        of images that have been corrupted by raindrops. The catch is that the
+        segmentation areas to focus on, is learnt by network itself. Maybe I can
+        call this self-prior-ing? Perhaps its a subset of self-supervised learning.
+        Either way, I believe there must be other application of this interesting
+        technique, like &quot;Generative Image In-painting with Contextual Attention&quot;</td>
+      <td
+      style="text-align:left"><a href="https://arxiv.org/pdf/1711.10098.pdf">https://arxiv.org/pdf/1711.10098.pdf</a>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">Learning to Generate Time-Lapse Videos Using Multi-Stage Dynamic Generative
