@@ -1230,14 +1230,21 @@
     </tr>
     <tr>
       <td style="text-align:left">Global versus Localized Generative Adversarial Nets</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">This paper propose to use local coordinate system for GANs. I believe
+        that this idea is very general. It maybe closer to representation learning
+        than to GANs. Very interesting ideas indeed. Perturbating the encoding
+        locally, insteading of sampling of a global coordinate. I think Iocalized
+        GAN must be cGAN (I may be wrong).</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1711.06020.pdf">https://arxiv.org/pdf/1711.06020.pdf</a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Disentangled Representation Learning GAN for Pose-Invariant Face Recognition</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">This paper seek to learn pose-invariant features using DR-GANs. DRGANs
+        can not only classify person, but also to general alternate face angles.
+        I believe that key difficulty in the task is getting the dataset. The idea
+        itself is almost trival. It is just ACGANs w/ autoencoder.</td>
         <td style="text-align:left"><a href="https://bit.ly/2jYjGZ4">https://bit.ly/2jYjGZ4</a>
         </td>
     </tr>
