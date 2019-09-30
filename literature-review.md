@@ -1158,8 +1158,7 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Image Blind Denoising With Generative Adversarial Network Based Noise
-        Modeling</td>
+      <td style="text-align:left">dr</td>
       <td style="text-align:left">
         <p>Interesting paper that uses GAN for noising modelling. Then the trained
           GANs is used to add noise to clean images, which will be used as paired
@@ -1188,21 +1187,44 @@
     <tr>
       <td style="text-align:left">Learning to Generate Time-Lapse Videos Using Multi-Stage Dynamic Generative
         Adversarial Networks</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>Novel dataset, proposed architecture and refining approach.</p>
+        <p>Time-lapse dataset, 3d U-Net GANs, and Refine-Net</p>
+        <p>Skip-connections are good for perserving content, but not ideal for preserving
+          motion. Maximize distance of image from 2nd stage to 1st stage and minimize
+          distance of 2nd stage with ground truth.</p>
+      </td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1709.07592.pdf">https://arxiv.org/pdf/1709.07592.pdf</a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Social GAN: Socially Acceptable Trajectories with Generative Adversarial
         Networks</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>This paper aims to narrow-down the possible trajectory that a person is
+          able to take by enforcing social-acceptability. Many paths are physically
+          possible, but not all are socially acceptable.</p>
+        <p>Current techniques use loss function that would implicitly result in a
+          &apos;mean&apos; trajectory. This paper aims to solve that problem by using
+          adversarial loss, which will learn social acceptability instead (by learning
+          how people interacts with each other to move in a crowd).</p>
+        <p>The network encodes all movement then encodes the historical movement
+          to each person. Then generator will take encoding of every person to generate
+          motion based on past locations. This ensure that motion prediction is based
+          on interactions of all people, instead of just the surrounding neighbors.</p>
+      </td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1803.10892.pdf">https://arxiv.org/pdf/1803.10892.pdf</a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Stacked Conditional Generative Adversarial Networks for Jointly Learning
         Shadow Detection and Shadow Removal</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">This paper introduces a multi-tasking framework to both detect and remove
+        shadows. The approach is to 1st detect shadows, then introduces it as a
+        prior to aid in shadow removal. This literature make use of shadow map
+        in adversarial training even when supervised learning is possible. I believe
+        something like &quot;Attentive Generative Adversarial Network for Raindrop
+        Removal from a Single Image&quot; is possible.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1712.02478.pdf">https://arxiv.org/pdf/1712.02478.pdf</a>
       </td>
     </tr>
@@ -1277,6 +1299,48 @@
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>### Others
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Name</th>
+      <th style="text-align:left">Summary</th>
+      <th style="text-align:left">File</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Color Indexing</td>
+      <td style="text-align:left">
+        <p>Histogram Intersection with real-time indexing of stored models for identification.
+          Histogram back-propagation.</p>
+        <p>Colors as implicit cues to object identity vs. explicit cues from geometric
+          features.</p>
+        <p>Colors are unreliable due to sensitivity to lighting conditions, but some
+          works have addressed this.
+          <br />Different parts of our brain, identifies and locate images (Where vs.
+          What).
+          <br />Color histogram are insensitive to translation, rotation and occlusion.
+          (Try experiment to validate this claim)</p>
+        <p>Incremental Intersection for efficient indexing (what is it?)</p>
+        <p>Histogram back-propagation. (Where is it?)</p>
+        <p>cumulative histogram</p>
+        <p>fraction of the multidimensional space (representation learning. chance
+          of different model being close is low)</p>
+      </td>
+      <td style="text-align:left"><a href="https://link.springer.com/article/10.1007/BF00130487">https://link.springer.com/article/10.1007/BF00130487</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Texture Synthesis by Non-parametric Sampling</td>
+      <td style="text-align:left">Paper is based on a problem that texture synthesis are either periodic
+        or completely random. This paper introduce way to synthesis periodic textures
+        with randomized component.</td>
+      <td style="text-align:left"><a href="https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/papers/efros-iccv99.pdf">https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/papers/efros-iccv99.pdf</a>
+      </td>
     </tr>
   </tbody>
 </table>
