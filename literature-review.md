@@ -404,7 +404,8 @@
     </tr>
     <tr>
       <td style="text-align:left">Domain-adaptive deep network compression</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Paper about pruning of neural network that applies post-domain adapted
+        activation statistics for more efficient network compression.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1709.01041.pdf">https://arxiv.org/pdf/1709.01041.pdf</a>
       </td>
     </tr>
@@ -1068,14 +1069,8 @@
     <tr>
       <td style="text-align:left">Look, Imagine and Match:Improving Textual-Visual Cross-Modal Retrieval
         with Generative Models</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Paper about cross-modal image-caption retrieval</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1711.06420.pdf">https://arxiv.org/pdf/1711.06420.pdf</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">FLIPDIAL: A Generative Model for Two-Way Visual Dialogue</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"><a href="https://arxiv.org/pdf/1802.03803.pdf">https://arxiv.org/pdf/1802.03803.pdf</a>
       </td>
     </tr>
     <tr>
@@ -1251,14 +1246,22 @@
     <tr>
       <td style="text-align:left">Semi Supervised Semantic Segmentation Using Generative Adversarial Network</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">This paper uses a multi-tasking framework to achieve good segmentation
+        results. The main task to learn correct dense pixel class i.e. segmentation
+        from labelled dataset. The second task is to generate realistic images.
+        The idea is that the features learnt from trying to generating realistic
+        images is related to segmentation task. Hence, it serves as a regularization
+        factor.</td>
         <td style="text-align:left"><a href="https://bit.ly/2kzaPNT">https://bit.ly/2kzaPNT</a>
         </td>
     </tr>
     <tr>
       <td style="text-align:left">Shadow Detection with Conditional Generative Adversarial Networks</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">According to this paper, detecting shadows with varying intensity used
+        to be require multiple trained network. In this paper, the authors solved
+        this problem, by introducing a sensitivity input for adjusting the threshold
+        for the shadow map.</td>
         <td style="text-align:left"><a href="https://bit.ly/2lZbd8C">https://bit.ly/2lZbd8C</a>
         </td>
     </tr>
