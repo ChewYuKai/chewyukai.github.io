@@ -499,6 +499,8 @@
 | Unsupervised Visual Representation Learning by Context Prediction | This paper propose a interesting way for representation learning by training the network to predict the relative position of a source image to the target image. Experiment shows that once the authors removed so-called "trival" solutions that rely on low-level features, the network is able to start learning more advanced features. The author claims that theirs in the first example of unsupervised pre-training on a larger dataset could led to performance boost in a smaller dataset. | [https://arxiv.org/pdf/1505.05192.pdf](https://arxiv.org/pdf/1505.05192.pdf) |
 | Unsupervised Representation Learning By Predicting Image Rotation | This paper propose a simple and, yet powerful approach that allows the learning of high-level semantic features, by predicting the rotational orientation. Compared to similar approaches, there is no need to additional pre-processing to avoid "trivial" solutions | [https://arxiv.org/pdf/1803.07728.pdf](https://arxiv.org/pdf/1803.07728.pdf) |
 | Colorful Image Colorization | The main focus of this paper is to use deep learning for multi-modal re-colorisation of images. On the side, the author endeavor into a cross-channel encoder and using the features learnt for classification task. Thus fur, I observed that self-supervised techniques can be broadly grouped into three styles: 1\) hiding information away from learner,  2\) feature learning before & after data augmentation, and 3\) self-labeling  | [https://arxiv.org/pdf/1603.08511.pdf](https://arxiv.org/pdf/1603.08511.pdf) |
+| Stand-Alone Self-Attention in Vision Models |  |  |
+|  |  |  |
 
 ### Error-Correcting Output Codes
 
@@ -1291,19 +1293,142 @@
         </td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Modeling Tabular data using Conditional GAN</td>
+      <td style="text-align:left">This paper is about modelling tabular data, which faces a set of unique
+        challenges. Mainly, the presence of both continuous and discrete columns
+        (ordinal &amp; discrete), and highly-imbalanced category. I don&apos;t
+        really understand the solution.</td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1907.00503.pdf">https://arxiv.org/pdf/1907.00503.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Generalization in Generative Adversarial Networks: A Novel Perspective
+        from Privacy Protection</td>
+      <td style="text-align:left">
+        <p>This papers is based on the intuition that the objection of generalization
+          and privacy-protecting is one and the same i.e. to gain knowledge on an
+          entire population without memorizing the features of individual members.</p>
+        <p>Membership attackers i.e given a individual record and a black-box model,
+          determine if the individual record has been used to train the model.</p>
+        <p>This paper is indirectly sharing my philosophy in pushing for generalization.
+          It also makes a point on modal-collapse of GANs is related to the memorization
+          of training data and therefore, is anti-privacy perserving. Hence, introducing
+          privacy-preserving network like bayesian GANs would mitigate the problem
+          of modal collapse.</p>
+        <p>Paper also shows that techniques that enforced Lipschitz constraints,
+          also prevented information leak from membership attacks.</p>
+        <p>Great paper that excels in explaining what they are doing.</p>
+      </td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1908.07882.pdf">https://arxiv.org/pdf/1908.07882.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Reducing Noise in GAN Training with Variance Reduced Extragradient</td>
+      <td
+      style="text-align:left">
+        <p>This paper is GANs is especially sensitive to noise due to its conflicting
+          minimax objective. The authors shows in general, single objective DNN always
+          points towards the optimal solution. However for GANs, noisy gradient can
+          throw the network off-course.</p>
+        <p>The authors also proof that for mini-batch size less than half the dataset,
+          standard stochastic optimization breaks.</p>
+        <p>Implementation details in Appendix is critical. However, I do not see
+          myself implementing this. Hence, my takeaway from this paper is to increase
+          mini-batch size.</p>
+        </td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1904.08598.pdf">https://arxiv.org/pdf/1904.08598.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">A Primal-Dual link between GANs and Autoencoders</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Metric Learning for Adversarial Robustness</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
+      <td style="text-align:left">Adversarial Self-Defense for Cycle-Consistent GANs</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Model Compression with Adversarial Robustness: A Unified Optimization
+        Framework</td>
       <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Twin Auxilary Classifiers GAN</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Training Language GANs from Scratch</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Learning GANs and Ensembles Using Discrepancy</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Co-Generation with GANs using AIS based HMC</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Conditional Structure Generation through Graph Variational Generative
+        Adversarial Nets</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Conditional Independence Testing using Generative Adversarial Networks</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Quality Aware Generative Adversarial Networks</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Face Reconstruction from Voice using Generative Adversarial Networks</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Time-series Generative Adversarial Networks</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Quantum Wasserstein Generative Adversarial Networks</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Learning from Label Proportions with Generative Adversarial Networks</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">The numerics of GANs</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">variational inequality perspective on generative adversarial net</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
@@ -1350,6 +1475,106 @@
         or completely random. This paper introduce way to synthesis periodic textures
         with randomized component.</td>
       <td style="text-align:left"><a href="https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/papers/efros-iccv99.pdf">https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/papers/efros-iccv99.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Adversarial Examples Are Not Bugs, They Are Features</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">The Point Where Reality Meets Fantasy: Mixed Adversarial Generators for
+        Image Splice Detection</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Deep ReLU Networks Have Surprisingly Few Activation Patterns</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">A New Defense Against Adversarial Images: Turning a Weakness into a Strength</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Defense Against Adversarial Attacks Using Feature Scattering-based Adversarial
+        Training</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">On the Optimality of Perturbations in Stochastic and Adversarial Multi-armed
+        Bandit Problems</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Fooling Neural Network Interpretations via Adversarial Model Manipulation</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Robustness to Adversarial Perturbations in Learning from Incomplete Data</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Adversarial training for free!</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Adversarial Training and Robustness for Multiple Perturbations</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Nonzero-sum Adversarial Hypothesis Testing Games</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Detecting Overfitting via Adversarial Examples</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Error Correcting Output Codes Improve Probability Estimation and Adversarial
+        Robustness of Deep Neural Networks</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Certified Adversarial Robustness with Addition Gaussian Noise</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Large Scale Adversarial Representation Learning</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Unlabeled Data Improves Adversarial Robustness</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">You Only Propagate Once: Accelerating Adversarial Training via Maximal
+        PrincipleYou Only Propagate Once: Accelerating Adversarial Training via
+        Maximal Principle</td>
+      <td style="text-align:left">This paper is about the discovery that adversarial perturbation mainly
+        affects the first layers of the network. Hence, restricting updates to
+        only one layer greatly speeds of training with adversarial examples. I
+        do not understand the proof.</td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1905.00877.pdf">https://arxiv.org/pdf/1905.00877.pdf</a>
       </td>
     </tr>
   </tbody>
