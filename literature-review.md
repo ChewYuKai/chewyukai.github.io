@@ -1155,8 +1155,9 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">dr</td>
-      <td style="text-align:left">
+      <td style="text-align:left">Image Blind Denoising With Generative Adversarial Network BasedNoise Modeling</td>
+      <td
+      style="text-align:left">
         <p>Interesting paper that uses GAN for noising modelling. Then the trained
           GANs is used to add noise to clean images, which will be used as paired
           examples for training the denoiser. My thoughts is that the so called &quot;clean
@@ -1164,9 +1165,9 @@
           standards set for &quot;clean&quot;, results may vary.</p>
         <p>I believe that this work diverge from Noise2Noise. (Noise2Noise is a Good
           paper)</p>
-      </td>
-      <td style="text-align:left"><a href="https://bit.ly/2m1JuEr">https://bit.ly/2m1JuEr</a>
-      </td>
+        </td>
+        <td style="text-align:left"><a href="https://bit.ly/2m1JuEr">https://bit.ly/2m1JuEr</a>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">Attentive Generative Adversarial Network for Raindrop Removal from a Single
@@ -1329,7 +1330,7 @@
         <p>This paper is GANs is especially sensitive to noise due to its conflicting
           minimax objective. The authors shows in general, single objective DNN always
           points towards the optimal solution. However for GANs, noisy gradient can
-          throw the network off-course.</p>
+          throw the network off-course. Stochasticity Breaks Extragradient</p>
         <p>The authors also proof that for mini-batch size less than half the dataset,
           standard stochastic optimization breaks.</p>
         <p>Implementation details in Appendix is critical. However, I do not see
@@ -1340,26 +1341,63 @@
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">variational inequality perspective on generative adversarial net</td>
+      <td style="text-align:left">Variational inequality perspective on generative adversarial net</td>
       <td
-      style="text-align:left"></td>
-        <td style="text-align:left"></td>
+      style="text-align:left">
+        <p>This paper is in alignment with &quot;Reducing Noise in GAN Training with
+          Variance Reduced Extragradient&quot; that stochastic gradient descent is
+          not optimal for a two-player game such as GANs.</p>
+        <p>The authors proposed three solutions, averaging, extrapolation and extrapolation
+          from the past. If I am not wrong the first two solution have already been
+          done. So, the enhancement that this paper brings about is its reasoning
+          from the perspective of variational inequality problems (VIP).</p>
+        <p>Saturating GANs, minimizing the odds of generated images as fake.</p>
+        <p>Non-saturating GANs, maximizing the odds of generated images as real.
+          In the latter case, I do not understand the authors claims that it is not
+          a zero-sum game, because there are no other possibilities.
+          <br />Even on such a small dataset, the improvement is small.
+          <br />My takeaway is averaging gradient is a simplest and most effective approach.</p>
+        </td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1802.10551.pdf">https://arxiv.org/pdf/1802.10551.pdf</a>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">Adversarial Self-Defense for Cycle-Consistent GANs</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>So many typos errors in this paper.</p>
+        <p></p>
+        <p>This paper presents a interesting problem. It seems that Cycle-GANs are
+          ignoring much segmentation information when translating from image -to-semantic
+          and back from semantic-to-image. In some cases, when image-to-semantic
+          map translation fails with capture key objects such as a car, the semantic-to-image
+          translation process will still generate a vehicle despite having no semantic
+          signal for a car i.e. the network is hallucinating.</p>
+        <p></p>
+        <p>The authors named this phenomenon as self-adversarial attack. Experiments
+          show that tiny perturbation in the semantics will cause the network to
+          output garbage, as the low-amplitude structural that the network relies
+          on to &apos;cheat&apos; has been destroyed.
+          <br />Three ways to defend against this attack is proposed. Adding noise to
+          disturb structural noise during training, the use of guess estimator to
+          differentiate between reconstructed and original image, and reducing weightage
+          of richer domain.</p>
+        <p>The result is a network that produces a more &apos;honest&apos; reconstruction.</p>
+      </td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1908.01517.pdf">https://arxiv.org/pdf/1908.01517.pdf</a>
+      </td>
     </tr>
     <tr>
-      <td style="text-align:left">Model Compression with Adversarial Robustness: A Unified Optimization
-        Framework</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Twin Auxilary Classifiers GAN</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Twin Auxiliary Classifiers GAN</td>
+      <td style="text-align:left">
+        <p>This paper bring up a fact about ACGANs, where as the number of class
+          increases the diversity decreases. This fact is in alignment with &quot;Mode
+          Seeking Generative Adversarial Networks for Diverse Image Synthesis&quot;</p>
+        <p>The proposed solution is to introduced a adversarial auxiliary classifier
+          to compete with the generator. Low diversity images from the generator
+          will incurr large losses in its cost function.</p>
+      </td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1907.02690.pdf">https://arxiv.org/pdf/1907.02690.pdf</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">Training Language GANs from Scratch</td>
