@@ -1340,14 +1340,10 @@
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">A Primal-Dual link between GANs and Autoencoders</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Metric Learning for Adversarial Robustness</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">variational inequality perspective on generative adversarial net</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">Adversarial Self-Defense for Cycle-Consistent GANs</td>
@@ -1425,10 +1421,9 @@
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">variational inequality perspective on generative adversarial net</td>
-      <td
-      style="text-align:left"></td>
-        <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
@@ -1575,6 +1570,23 @@
         only one layer greatly speeds of training with adversarial examples. I
         do not understand the proof.</td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1905.00877.pdf">https://arxiv.org/pdf/1905.00877.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Metric Learning for Adversarial Robustness</td>
+      <td style="text-align:left">
+        <p>This paper makes use of the triplet loss framework to improve adversarial
+          robustness. The idea is &apos;Our motivation is that the triplet loss function
+          will pull all the images of one class,both natural and adversarial, closer
+          while pushing the images of other classes far apart. Thus, an image and
+          its adversarial counterpart should be on the same manifold, while all the
+          members of the&#x2018;false&#x2019; class should be forced to be separated
+          by a large margin.&apos; Note that the authors is not using the standard
+          triplet loss.</p>
+        <p>This paper shows that simple enhancement to existing works can achieve
+          good results.</p>
+      </td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1909.00900.pdf">https://arxiv.org/pdf/1909.00900.pdf</a>
       </td>
     </tr>
   </tbody>
