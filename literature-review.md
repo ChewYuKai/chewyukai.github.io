@@ -1387,55 +1387,44 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Twin Auxiliary Classifiers GAN</td>
+      <td style="text-align:left">The proposed solution is to introduced a adversarial auxiliary classifier
+        to compete with the generator. Low diversity images from the generator
+        will incur large losses in its cost function.Twin Auxiliary Classifiers
+        GAN</td>
       <td style="text-align:left">
         <p>This paper bring up a fact about ACGANs, where as the number of class
           increases the diversity decreases. This fact is in alignment with &quot;Mode
           Seeking Generative Adversarial Networks for Diverse Image Synthesis&quot;</p>
-        <p>The proposed solution is to introduced a adversarial auxiliary classifier
-          to compete with the generator. Low diversity images from the generator
-          will incurr large losses in its cost function.</p>
+        <p></p>
       </td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1907.02690.pdf">https://arxiv.org/pdf/1907.02690.pdf</a>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Training Language GANs from Scratch</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Learning GANs and Ensembles Using Discrepancy</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Co-Generation with GANs using AIS based HMC</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Conditional Structure Generation through Graph Variational Generative
-        Adversarial Nets</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
       <td style="text-align:left">Conditional Independence Testing using Generative Adversarial Networks</td>
       <td
-      style="text-align:left"></td>
-        <td style="text-align:left"></td>
+      style="text-align:left">Interesting paper on using GANs for causal testing. However, this is not
+        my area. Should read some other time.</td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1907.04068.pdf">https://arxiv.org/pdf/1907.04068.pdf</a>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">Quality Aware Generative Adversarial Networks</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">This paper really over-glorify image quality metrics like SSIM index and
+        NIQE. While I am unaware of these quality metric, the novelty of this paper
+        is the conversion of these metrics into a workable loss function for image
+        regularization.</td>
+      <td style="text-align:left"><a href="https://www.iith.ac.in/~lfovia/qagan_neurips_2019.pdf">https://www.iith.ac.in/~lfovia/qagan_neurips_2019.pdf</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">Face Reconstruction from Voice using Generative Adversarial Networks</td>
       <td
-      style="text-align:left"></td>
-        <td style="text-align:left"></td>
+      style="text-align:left">As the paper title says.. reconstruction of face using voice. Image quality
+        is bad. Perhaps there is a way to get better image quality from only voice.</td>
+        <td
+        style="text-align:left"><a href="https://arxiv.org/pdf/1905.10604.pdf">https://arxiv.org/pdf/1905.10604.pdf</a>
+          </td>
     </tr>
     <tr>
       <td style="text-align:left">Time-series Generative Adversarial Networks</td>
