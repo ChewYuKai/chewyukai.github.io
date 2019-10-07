@@ -1427,20 +1427,29 @@
           </td>
     </tr>
     <tr>
-      <td style="text-align:left">Time-series Generative Adversarial Networks</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Quantum Wasserstein Generative Adversarial Networks</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
       <td style="text-align:left">Learning from Label Proportions with Generative Adversarial Networks</td>
       <td
-      style="text-align:left"></td>
-        <td style="text-align:left"></td>
+      style="text-align:left">
+        <p>Label Proportion problem (LLP) is when the training data is grouped into
+          bags, and only the proportion of each bag is known.</p>
+        <p>The generator will produce fake bags w/ correct proportion to fool the
+          discriminator. There is a cross entropy loss term in the discriminator
+          to encourage the generator to learn the correct label .</p>
+        <p>Results in this papers show that the larger the bag size, the greater
+          the error. Nonetheless, the network performs only marginally worse compared
+          to CNN trained on directly. ground truth labels. Knowing only proportions
+          is a huge handicap, but this network performs well.</p>
+        <p>The conclusion of paper is interesting.</p>
+        <p>&quot;Nevertheless, limitations in our method can be summarized in the
+          following three aspects. Firstly,learning complexity in the sense of PAC
+          has not been involved in this study. That is to say, we cannotevaluate
+          the performance under limited data. Secondly, there is no guarantee on
+          algorithm robustnessto data perturbations, notably when the proportions
+          are imprecisely provided. Thirdly, other GANs(such as WGAN [3]) are not
+          considered in our current model and their performance is unknown.&quot;</p>
+        </td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1909.02180.pdf">https://arxiv.org/pdf/1909.02180.pdf</a>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">The numerics of GANs</td>
