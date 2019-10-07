@@ -1453,8 +1453,18 @@
     </tr>
     <tr>
       <td style="text-align:left">The numerics of GANs</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>This paper unlike other similar papers is not able proving the existance
+          of a Nash Equalibrium. Instead, it is more handling the practical issues
+          that arises such computation and numerics difficulties.</p>
+        <p>The authors propose consensus optimization as an alternative to simultaneous
+          gradient ascent.</p>
+        <p>v(x) is the direction of the gradient.</p>
+        <p>Consensus use 0.5 |v(x)| terms to calculate gradient vector for regularization.</p>
+        <p>Not sure about details. Dont understand the proof.</p>
+      </td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1705.10461.pdf">https://arxiv.org/pdf/1705.10461.pdf</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
@@ -1510,8 +1520,29 @@
     </tr>
     <tr>
       <td style="text-align:left">Adversarial Examples Are Not Bugs, They Are Features</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>Very interesting paper. This paper shows that network that trains on adversarial
+          cat images (actual class is dog) can still reliable classify cat images.
+          Hence, the authors claim &quot;Adversarial vulnerability is a direct result
+          of our models&#x2019; sensitivity to well-generalizing features in the
+          data.&quot;</p>
+        <p></p>
+        <p>Not sure the exact definition of robust vs non-robust features (I do have
+          a general idea).
+          <br />
+        </p>
+        <p>In my own words, adversarial examples comes from our chase for higher
+          accuracy. Therefore, the network learn to use highly predictive features
+          regardless of its robustness. However, most of these non-robust features
+          are not detectable by humans, but obvious to machines. Hence, in order
+          to increase robustness, we need to train the network with human priors.</p>
+        <p></p>
+        <p>Conclusion in Paper: &quot;Overall, attaining models that are robust and
+          interpretable will require explicitly encoding human priors into the training
+          process.&quot;</p>
+      </td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1905.02175.pdf">https://arxiv.org/pdf/1905.02175.pdf</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">The Point Where Reality Meets Fantasy: Mixed Adversarial Generators for
