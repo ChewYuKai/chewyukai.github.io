@@ -1545,27 +1545,25 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">The Point Where Reality Meets Fantasy: Mixed Adversarial Generators for
-        Image Splice Detection</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Deep ReLU Networks Have Surprisingly Few Activation Patterns</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">A New Defense Against Adversarial Images: Turning a Weakness into a Strength</td>
-      <td
-      style="text-align:left"></td>
-        <td style="text-align:left"></td>
-    </tr>
-    <tr>
       <td style="text-align:left">Defense Against Adversarial Attacks Using Feature Scattering-based Adversarial
         Training</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>The concept of label leaking is when the network is able to classify adversarial
+          examples better than the original class examples. This phenomenon happens
+          when adversarial training is employed to increase the robustness of a network
+          against adversarial attacks. The irony here is that now the network performs
+          well only if it is under-attack.</p>
+        <p>According to this paper, the data manifold of adversarial examples shifts
+          and deviates away from the original samples. This reminds me of domain
+          adaptation.</p>
+        <p>The authors proposed feature scattering i.e. maximizing the distance between
+          features between samples, such that the network will not only move away
+          from the decision boundary, but also maintain some distance between each
+          other. Hence, increasing robustness.</p>
+        <p>Not really sure about implementation details.</p>
+      </td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1907.10764.pdf">https://arxiv.org/pdf/1907.10764.pdf</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">On the Optimality of Perturbations in Stochastic and Adversarial Multi-armed
