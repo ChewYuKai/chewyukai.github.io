@@ -1566,65 +1566,107 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">On the Optimality of Perturbations in Stochastic and Adversarial Multi-armed
-        Bandit Problems</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
       <td style="text-align:left">Fooling Neural Network Interpretations via Adversarial Model Manipulation</td>
       <td
-      style="text-align:left"></td>
-        <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Robustness to Adversarial Perturbations in Learning from Incomplete Data</td>
-      <td
-      style="text-align:left"></td>
-        <td style="text-align:left"></td>
+      style="text-align:left">
+        <p>This paper is about attacking the interpretation of a network instead
+          of its accuracy. In fact, the accuracy of the perturbed network is the
+          remains within 1% of the original network.</p>
+        <p>The attack encourage the network to make use of irrelevant information
+          with strong predictive capability.</p>
+        <p></p>
+        <p>The types of passive interpretation fooling are location fooling i.e.
+          always make a certain area of a image important, center-of-mass fooling
+          i.e. make the an area that is far from the original salience important,
+          and k-top fooling i.e. reduce the importance of top k% of pixels. Another
+          kind of fooling is called active fooling, which actively makes another
+          object in the scene important.</p>
+        <p>There is no solution proposed to stop interpretation fooling.</p>
+        </td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1902.02041.pdf">https://arxiv.org/pdf/1902.02041.pdf</a>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">Adversarial training for free!</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>Adversarial training is slow, especially on large data set. This paper
+          is about speeding up adversarial training by re-using parts of the gradient
+          information.</p>
+        <p></p>
+        <p>Targeted vs Non-Targeted. Shifting a classification from natural class
+          to another specified class versus shifting classification away from natural
+          class.</p>
+        <p></p>
+        <p>No sure about exact implementation, or algorithm.</p>
+      </td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1904.12843.pdf">https://arxiv.org/pdf/1904.12843.pdf</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">Adversarial Training and Robustness for Multiple Perturbations</td>
       <td
-      style="text-align:left"></td>
-        <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Nonzero-sum Adversarial Hypothesis Testing Games</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      style="text-align:left">
+        <p>Models trained against a single type of adversarial attack, is only robust
+          against that particular form of perturbation.</p>
+        <p>On contrary, an ensemble of two models, each trained against one form
+          of attack, could be vulnerable to both.
+          <br />This paper is a study of defense again multi-prong attacks.</p>
+        <p>Paper is too difficult for me. I am not familiar with many of the basic
+          terminology.</p>
+        </td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1904.13000.pdf">https://arxiv.org/pdf/1904.13000.pdf</a>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">Detecting Overfitting via Adversarial Examples</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Error Correcting Output Codes Improve Probability Estimation and Adversarial
-        Robustness of Deep Neural Networks</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>This paper discussed a problems that I brought up to my supervising professor.
+          The problem of the over-fitting to test set that happen naturally as observe
+          test data indirectly through our experiment.</p>
+        <p>Also, the papers also states a point about a distribution shift problem
+          when an alternative test set is being used. I believe is actually the domain
+          adaptation problem i.e. domain shift from data set bias and covariance
+          shift. Cifar10.1 follows the collecting procedure of Cifar10, but still
+          experience distribution shift regardless, the authors are hinting that
+          using alternative test data is not feasible. However, I believe that using
+          adversarial examples will also shift the domain, as seen in previous experiment
+          where the adversarial examples are moved towards toward the negative class.</p>
+        <p></p>
+        <p>The authors use some math on &quot;importance weighted risk estimate&quot;
+          that I do not understand to detect over-fitting.</p>
+      </td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1903.02380.pdf">https://arxiv.org/pdf/1903.02380.pdf</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">Certified Adversarial Robustness with Addition Gaussian Noise</td>
       <td
-      style="text-align:left"></td>
-        <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Large Scale Adversarial Representation Learning</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      style="text-align:left">
+        <p>The idea of this paper is simple. Adding gaussian noise to drown any adversarial
+          perturbation, making any adverse signal undetectable to the network.</p>
+        <p>From there, the authors proof that error is bounded. Higher sigma of Gaussian
+          increases robustness, while increasing the difference between 1st and 2nd
+          highest due to accuracy drop. Therefore, optimal sigma is not obvious.</p>
+        <p>My takeaway: Choose highest sigma, where maximum difference between 1st
+          and 2nd highest probability. Optimal sigma is obtain with experiment.</p>
+        <p>Interesting this work has not bound the network to the &quot;size&quot;
+          of attack L. Instead, error is bounded only on sigma and a known L i.e.
+          any attack with L less than a range of sigma would be bounded.</p>
+        </td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1809.03113.pdf">https://arxiv.org/pdf/1809.03113.pdf</a>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">Unlabeled Data Improves Adversarial Robustness</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">This paper states that the robustness of a network is proportional to
+        the size of dataset. However, having access to high-quality labels for
+        large number of images can be a challenge. Thus, the authors attempt improve
+        robustness without labels, through methods of semi-supervised learning
+        with the use of pseudo-labels.
+        <br />Unlabeled data is labelled as the 11th class when combined with Cifar10</td>
+      <td
+      style="text-align:left"><a href="https://arxiv.org/pdf/1905.13736.pdf">https://arxiv.org/pdf/1905.13736.pdf</a>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">You Only Propagate Once: Accelerating Adversarial Training via Maximal
