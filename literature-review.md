@@ -1454,7 +1454,7 @@
     <tr>
       <td style="text-align:left">The numerics of GANs</td>
       <td style="text-align:left">
-        <p>This paper unlike other similar papers is not able proving the existance
+        <p>This paper unlike other similar papers is not able proving the existence
           of a Nash Equalibrium. Instead, it is more handling the practical issues
           that arises such computation and numerics difficulties.</p>
         <p>The authors propose consensus optimization as an alternative to simultaneous
@@ -1467,14 +1467,84 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">HexaGAN: Generative Adversarial Nets for Real World Classification</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1902.09913.pdf">https://arxiv.org/pdf/1902.09913.pdf</a>
+        </td>
     </tr>
     <tr>
+      <td style="text-align:left">HyperGAN: A Generative Model for Diverse, Performant Neural Networks</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1901.11058.pdf">https://arxiv.org/pdf/1901.11058.pdf</a>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">A Large-Scale Study on Regularization and Normalization in GANs</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1807.04720.pdf">https://arxiv.org/pdf/1807.04720.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Probability Functional Descent: A Unifying Perspective on GANs, Variational
+        Inference, and Reinforcement Learning</td>
       <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1901.10691.pdf">https://arxiv.org/pdf/1901.10691.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Kernel Mean Matching for Content Addressability of GANs</td>
       <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1905.05882.pdf">https://arxiv.org/pdf/1905.05882.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">MetricGAN: Generative Adversarial Networks based Black-box Metric Scores
+        Optimization for Speech Enhancement</td>
       <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1905.04874.pdf">https://arxiv.org/pdf/1905.04874.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Entropic GANs meet VAEs: A Statistical Approach to Compute Sample Likelihoods
+        in GANs</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1810.04147.pdf">https://arxiv.org/pdf/1810.04147.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Self-Attention Generative Adversarial Networks</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1805.08318.pdf">https://arxiv.org/pdf/1805.08318.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Non-Parametric Priors For Generative Adversarial Networks</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1905.07061.pdf">https://arxiv.org/pdf/1905.07061.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Generative Adversarial User Model for Reinforcement Learning Based Recommendation
+        System</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1812.10613.pdf">https://arxiv.org/pdf/1812.10613.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Finding Mixed Nash Equilibria of Generative Adversarial Networks</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1811.02002.pdf">https://arxiv.org/pdf/1811.02002.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Multi-objective training of Generative Adversarial Networks with multiple
+        discriminators</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1901.08680.pdf">https://arxiv.org/pdf/1901.08680.pdf</a>
+      </td>
     </tr>
   </tbody>
 </table>### Others
@@ -1670,8 +1740,7 @@
     </tr>
     <tr>
       <td style="text-align:left">You Only Propagate Once: Accelerating Adversarial Training via Maximal
-        PrincipleYou Only Propagate Once: Accelerating Adversarial Training via
-        Maximal Principle</td>
+        Principle</td>
       <td style="text-align:left">This paper is about the discovery that adversarial perturbation mainly
         affects the first layers of the network. Hence, restricting updates to
         only one layer greatly speeds of training with adversarial examples. I
@@ -1695,6 +1764,37 @@
       </td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1909.00900.pdf">https://arxiv.org/pdf/1909.00900.pdf</a>
       </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Generalized No Free Lunch Theorem for Adversarial Robustness</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1810.04065.pdf">https://arxiv.org/pdf/1810.04065.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Are Generative Classifiers More Robust to Adversarial Attacks?</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1802.06552.pdf">https://arxiv.org/pdf/1802.06552.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Transferable Adversarial Training: A General Approach to Adapting Deep
+        Classifiers</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="http://proceedings.mlr.press/v97/liu19b/liu19b.pdf">http://proceedings.mlr.press/v97/liu19b/liu19b.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Simple Black-box Adversarial Attacks</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1905.07121.pdf">https://arxiv.org/pdf/1905.07121.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
     </tr>
   </tbody>
 </table>

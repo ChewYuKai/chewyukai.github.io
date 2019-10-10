@@ -38,7 +38,7 @@
 
 ### Slides
 
-[https://entuedu-my.sharepoint.com/:p:/g/personal/chew0392\_e\_ntu\_edu\_sg/ES3pqnKKktZBtMwMksak2YQBq6w1PgAsyr0zoruVNL3yQQ?email=AdamsKong%40ntu.edu.sg&e=G7u9ZQ](https://entuedu-my.sharepoint.com/:p:/g/personal/chew0392_e_ntu_edu_sg/EQegMmNad89IglN1iFzAP60BK8kx9Ce8DmcmUrHqpE92iw?email=AdamsKong%40ntu.edu.sg&e=YAUjoB)
+{% embed url="https://entuedu-my.sharepoint.com/:p:/g/personal/chew0392\_e\_ntu\_edu\_sg/ES3pqnKKktZBtMwMksak2YQBq6w1PgAsyr0zoruVNL3yQQ?email=AdamsKong%40ntu.edu.sg&e=G7u9ZQ" %}
 
 ## Session 3
 
@@ -58,5 +58,29 @@
 
 ### Slides
 
-[https://entuedu-my.sharepoint.com/:p:/g/personal/chew0392\_e\_ntu\_edu\_sg/EcVsECRVtZZOkpgTU0XHmccBsokz1qf\_PheuPmLbTV80KA?email=AdamsKong%40ntu.edu.sg&e=IbeTOs](https://entuedu-my.sharepoint.com/:p:/g/personal/chew0392_e_ntu_edu_sg/EcVsECRVtZZOkpgTU0XHmccBsokz1qf_PheuPmLbTV80KA?email=AdamsKong%40ntu.edu.sg&e=IbeTOs)
+{% embed url="https://entuedu-my.sharepoint.com/:p:/g/personal/chew0392\_e\_ntu\_edu\_sg/EcVsECRVtZZOkpgTU0XHmccBsokz1qf\_PheuPmLbTV80KA?email=AdamsKong%40ntu.edu.sg&e=IbeTOs" %}
+
+## Session 4
+
+### Papers for discussion
+
+* Universal Domain Adaptation​
+* Attending to Discriminative Certainty for Domain Adaptation 
+* Attentive Generative Adversarial Network for Raindrop​
+* CartoonGAN: Generative Adversarial Networks for Photo Cartoonization
+* Single Image Dehazing via Conditional Generative Adversarial Network
+* Learning to Generate Time-Lapse Videos Using Multi-Stage Dynamic Generative Adversarial Networks
+
+### Feedback
+
+* How training happens for Universal Doamin Adaptation
+* Generalization camp vs Experiment camp
+* Copyright problems for dataset
+* Ground truth segmentation
+
+### Slides
+
+{% embed url="https://entuedu-my.sharepoint.com/:p:/g/personal/chew0392\_e\_ntu\_edu\_sg/EcVsECRVtZZOkpgTU0XHmccBsokz1qf\_PheuPmLbTV80KA?email=AdamsKong%40ntu.edu.sg&e=IbeTOs" %}
+
+
 
