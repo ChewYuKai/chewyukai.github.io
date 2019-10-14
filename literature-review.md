@@ -1469,7 +1469,17 @@
     <tr>
       <td style="text-align:left">HexaGAN: Generative Adversarial Nets for Real World Classification</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">
+        <p>HexGAN tries to solve 3 common problems in real-world data; incomplete
+          data points, imbalance data set and missing labels.</p>
+        <p>For which, the authors proposed 3 solution; imputing missing elements,
+          conditional generation, and pseudo-labels.</p>
+        <p>From my understanding, all 3 solutions are not novel i.e. they have been
+          studied in isolation. However, this paper is the first to bring all three
+          together to handle real-world data set.
+          <br />The experimental is only on MNIST... how can that even be considered &quot;REAL
+          WORLD&quot; data? I smell horse shit.</p>
+        </td>
         <td style="text-align:left"><a href="https://arxiv.org/pdf/1902.09913.pdf">https://arxiv.org/pdf/1902.09913.pdf</a>
         </td>
     </tr>
