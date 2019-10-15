@@ -1547,16 +1547,23 @@
     <tr>
       <td style="text-align:left">MetricGAN: Generative Adversarial Networks based Black-box Metric Scores
         Optimization for Speech Enhancement</td>
-      <td style="text-align:left">This paper is about optimizing a metric, while using adversarial loss
-        to train GAN. The question is, why do we need adversarial learning when
-        learning objective is not intractable? One reason I can come up with is
-        the selected metric is simply a heuristic on indication of an intractable
-        learning objective. In that case, the heuristic metric can point the network
-        in a &apos;general&apos; direction as a form of regularization. The problem
-        is the blind optimization of a KPI/metric can hurt the overall performance.</td>
-      <td
-      style="text-align:left"><a href="https://arxiv.org/pdf/1905.04874.pdf">https://arxiv.org/pdf/1905.04874.pdf</a>
-        </td>
+      <td style="text-align:left">
+        <p>This paper is about optimizing a metric, while using adversarial loss
+          to train GAN. The question is, why do we need adversarial learning when
+          learning objective is not intractable? One reason I can come up with is
+          the selected metric is simply a heuristic on indication of an intractable
+          learning objective. In that case, the heuristic metric can point the network
+          in a &apos;general&apos; direction as a form of regularization. The problem
+          is the blind optimization of a KPI/metric can hurt the overall performance.
+          Because in this study, the quality metric has been used as a loss function,
+          a qualitative test was conducted with human listerner using A/B testing.
+          I think the way that this paper to judge audio quality is very dubious.</p>
+        <p></p>
+        <p>Interestingly speech can be decomposed analyzed as an image using spectrogram.
+          As such, GANs can be used to generate audio of a specific speaker.</p>
+      </td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1905.04874.pdf">https://arxiv.org/pdf/1905.04874.pdf</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">Entropic GANs meet VAEs: A Statistical Approach to Compute Sample Likelihoods
