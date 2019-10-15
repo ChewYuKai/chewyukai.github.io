@@ -1486,13 +1486,41 @@
     <tr>
       <td style="text-align:left">HyperGAN: A Generative Model for Diverse, Performant Neural Networks</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">
+        <p>Interestingly I found out from this paper that dropout layer was formulated
+          as a Bayesian approach and are equivalent to a deep Gaussian process. That
+          being said, the main purpose of HyperGAN is to obtain uncertainty estimate,
+          rather than just given an maximum-likehood accuracy.</p>
+        <p></p>
+        <p>From my understanding, this architecture is using GANs to generate the
+          weights of the target classifier network. Hence, the target network is
+          no longer trained by back-propagation. I can see two benefits of training
+          the network this way. Firstly, this training method should be privacy-perserving,
+          and secondly, model training is regularized by an adversarial learning
+          maintain &quot;exploratory energy&quot; by aligning correlated latent code
+          with a high-entropy prior. As a results, model trained using this method
+          have more diverse feature maps.</p>
+        <p></p>
+        <p>It is interesting to see how the model performs in different data set.</p>
+        </td>
         <td style="text-align:left"><a href="https://arxiv.org/pdf/1901.11058.pdf">https://arxiv.org/pdf/1901.11058.pdf</a>.</td>
     </tr>
     <tr>
       <td style="text-align:left">A Large-Scale Study on Regularization and Normalization in GANs</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">
+        <p>This paper is a empirical study of GANs, involving various loss functions,
+          architectures and regularization techniques.</p>
+        <p>The best regularization method is spectral norm as it is the most reliable.
+          Though, gradient penalty-5 and layer norm works well too i.e. better than
+          vanilla.</p>
+        <p>As for the loss functions, there is no clear winner. But, spectral norm
+          is seems to be the most reliable.</p>
+        <p>For architecture, SNDCGAN outperforms resnet-19 in general. However, SN
+          &amp; tuned-GP worked consistently to improve performance compared to baseline.
+          The downside of GP is the need to tune a hyper-parameter.</p>
+        <p>Interesting GP + SN collectively improve the FID more significantly.</p>
+        </td>
         <td style="text-align:left"><a href="https://arxiv.org/pdf/1807.04720.pdf">https://arxiv.org/pdf/1807.04720.pdf</a>
         </td>
     </tr>
