@@ -1535,10 +1535,10 @@
           The answer is performances gradient descent using latent noise z, as the
           parameter, such that the extracted features of G(z) matches the features
           of the input image. Note that: the features extractor is not part of the
-          GAN and is another seperate component.</p>
+          GAN and is another separate component.</p>
         <p></p>
         <p>I do not understand the details of the feature extractor. It is cool that
-          this paper has a google colab page. 10/10 results reproducibility. I should
+          this paper has a google collab page. 10/10 results reproducibility. I should
           learn from the authors..</p>
       </td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1905.05882.pdf">https://arxiv.org/pdf/1905.05882.pdf</a>
@@ -1547,9 +1547,16 @@
     <tr>
       <td style="text-align:left">MetricGAN: Generative Adversarial Networks based Black-box Metric Scores
         Optimization for Speech Enhancement</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"><a href="https://arxiv.org/pdf/1905.04874.pdf">https://arxiv.org/pdf/1905.04874.pdf</a>
-      </td>
+      <td style="text-align:left">This paper is about optimizing a metric, while using adversarial loss
+        to train GAN. The question is, why do we need adversarial learning when
+        learning objective is not intractable? One reason I can come up with is
+        the selected metric is simply a heuristic on indication of an intractable
+        learning objective. In that case, the heuristic metric can point the network
+        in a &apos;general&apos; direction as a form of regularization. The problem
+        is the blind optimization of a KPI/metric can hurt the overall performance.</td>
+      <td
+      style="text-align:left"><a href="https://arxiv.org/pdf/1905.04874.pdf">https://arxiv.org/pdf/1905.04874.pdf</a>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">Entropic GANs meet VAEs: A Statistical Approach to Compute Sample Likelihoods
