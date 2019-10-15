@@ -1525,15 +1525,22 @@
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">Probability Functional Descent: A Unifying Perspective on GANs, Variational
-        Inference, and Reinforcement Learning</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"><a href="https://arxiv.org/pdf/1901.10691.pdf">https://arxiv.org/pdf/1901.10691.pdf</a>
-      </td>
-    </tr>
-    <tr>
       <td style="text-align:left">Kernel Mean Matching for Content Addressability of GANs</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>This GAN allow users to specify desired images based on similar samples
+          generated before, without retraining. Interesting this method is a form
+          of unconditional implicit model.</p>
+        <p>
+          <br />The question now is how can the model take an input without conditioning?
+          The answer is performances gradient descent using latent noise z, as the
+          parameter, such that the extracted features of G(z) matches the features
+          of the input image. Note that: the features extractor is not part of the
+          GAN and is another seperate component.</p>
+        <p></p>
+        <p>I do not understand the details of the feature extractor. It is cool that
+          this paper has a google colab page. 10/10 results reproducibility. I should
+          learn from the authors..</p>
+      </td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1905.05882.pdf">https://arxiv.org/pdf/1905.05882.pdf</a>
       </td>
     </tr>
