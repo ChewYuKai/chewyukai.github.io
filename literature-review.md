@@ -1595,7 +1595,12 @@
     </tr>
     <tr>
       <td style="text-align:left">Non-Parametric Priors For Generative Adversarial Networks</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>Normally, GANs uses Gaussian distribution to sample the initial latent
+          code a.k.a. the priors for GAN. However, other forms of distribution can
+          also be used like uniform or Cauchy distribution.</p>
+        <p>In this paper the authors propose, a non-parametric priors.</p>
+      </td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1905.07061.pdf">https://arxiv.org/pdf/1905.07061.pdf</a>
       </td>
     </tr>
