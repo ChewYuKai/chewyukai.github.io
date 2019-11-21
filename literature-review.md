@@ -1387,18 +1387,13 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">The proposed solution is to introduced a adversarial auxiliary classifier
-        to compete with the generator. Low diversity images from the generator
-        will incur large losses in its cost function.Twin Auxiliary Classifiers
-        GAN</td>
-      <td style="text-align:left">
-        <p>This paper bring up a fact about ACGANs, where as the number of class
-          increases the diversity decreases. This fact is in alignment with &quot;Mode
-          Seeking Generative Adversarial Networks for Diverse Image Synthesis&quot;</p>
-        <p></p>
-      </td>
-      <td style="text-align:left"><a href="https://arxiv.org/pdf/1907.02690.pdf">https://arxiv.org/pdf/1907.02690.pdf</a>
-      </td>
+      <td style="text-align:left">Twin Auxiliary Classifiers GAN</td>
+      <td style="text-align:left">This paper bring up a fact about ACGANs, where as the number of class
+        increases the diversity decreases. This fact is in alignment with &quot;Mode
+        Seeking Generative Adversarial Networks for Diverse Image Synthesis&quot;</td>
+      <td
+      style="text-align:left"><a href="https://arxiv.org/pdf/1907.02690.pdf">https://arxiv.org/pdf/1907.02690.pdf</a>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">Conditional Independence Testing using Generative Adversarial Networks</td>
