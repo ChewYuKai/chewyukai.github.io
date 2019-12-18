@@ -491,18 +491,98 @@
 
 ### Unsupervised Network
 
-| Name | Summary | File |
-| :--- | :--- | :--- |
-| Deep Clustering for Unsupervised Learning of Visual Features | This paper propose an architecture that can be leverage on the unlabeled datasets to learn discriminant features. Instead, pseudo-labels from k-means is used to guide training of network. | [https://arxiv.org/pdf/1807.05520.pdf](https://arxiv.org/pdf/1807.05520.pdf) |
-| Deep k-Means: Jointly clustering with k-Means and learning representations | Previous work alternates training of k-means and auto-encoder. Deep k-Means seek to remove the seam between these two algorithm, and join them to form a single framework. | [https://arxiv.org/pdf/1902.06938.pdf](https://arxiv.org/pdf/1902.06938.pdf) |
-| Label-Removed Generative Adversarial Networks Incorporating with K-Means | This paper introduce a way to prevent model collapse by using K-Means generated labels to guide network training. Though labeled-data is used, this architecture is grouped under _unconditional GAN_, the labels are not being used to condition the output_._ | [https://arxiv.org/pdf/1902.06938.pdf](https://arxiv.org/pdf/1902.06938.pdf) |
-| Unsupervised Visual Representation Learning by Context Prediction | This paper propose a interesting way for representation learning by training the network to predict the relative position of a source image to the target image. Experiment shows that once the authors removed so-called "trival" solutions that rely on low-level features, the network is able to start learning more advanced features. The author claims that theirs in the first example of unsupervised pre-training on a larger dataset could led to performance boost in a smaller dataset. | [https://arxiv.org/pdf/1505.05192.pdf](https://arxiv.org/pdf/1505.05192.pdf) |
-| Unsupervised Representation Learning By Predicting Image Rotation | This paper propose a simple and, yet powerful approach that allows the learning of high-level semantic features, by predicting the rotational orientation. Compared to similar approaches, there is no need to additional pre-processing to avoid "trivial" solutions | [https://arxiv.org/pdf/1803.07728.pdf](https://arxiv.org/pdf/1803.07728.pdf) |
-| Colorful Image Colorization | The main focus of this paper is to use deep learning for multi-modal re-colorisation of images. On the side, the author endeavor into a cross-channel encoder and using the features learnt for classification task. Thus fur, I observed that self-supervised techniques can be broadly grouped into three styles: 1\) hiding information away from learner,  2\) feature learning before & after data augmentation, and 3\) self-labeling  | [https://arxiv.org/pdf/1603.08511.pdf](https://arxiv.org/pdf/1603.08511.pdf) |
-| Stand-Alone Self-Attention in Vision Models |  |  |
-|  |  |  |
-
-### Error-Correcting Output Codes
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Name</th>
+      <th style="text-align:left">Summary</th>
+      <th style="text-align:left">File</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Deep Clustering for Unsupervised Learning of Visual Features</td>
+      <td style="text-align:left">This paper propose an architecture that can be leverage on the unlabeled
+        datasets to learn discriminant features. Instead, pseudo-labels from k-means
+        is used to guide training of network.</td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1807.05520.pdf">https://arxiv.org/pdf/1807.05520.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Deep k-Means: Jointly clustering with k-Means and learning representations</td>
+      <td
+      style="text-align:left">Previous work alternates training of k-means and auto-encoder. Deep k-Means
+        seek to remove the seam between these two algorithm, and join them to form
+        a single framework.</td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1902.06938.pdf">https://arxiv.org/pdf/1902.06938.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Label-Removed Generative Adversarial Networks Incorporating with K-Means</td>
+      <td
+      style="text-align:left">This paper introduce a way to prevent model collapse by using K-Means
+        generated labels to guide network training. Though labeled-data is used,
+        this architecture is grouped under <em>unconditional GAN</em>, the labels
+        are not being used to condition the output<em>.</em>
+        </td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1902.06938.pdf">https://arxiv.org/pdf/1902.06938.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Unsupervised Visual Representation Learning by Context Prediction</td>
+      <td
+      style="text-align:left">This paper propose a interesting way for representation learning by training
+        the network to predict the relative position of a source image to the target
+        image. Experiment shows that once the authors removed so-called &quot;trival&quot;
+        solutions that rely on low-level features, the network is able to start
+        learning more advanced features. The author claims that theirs in the first
+        example of unsupervised pre-training on a larger dataset could led to performance
+        boost in a smaller dataset.</td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1505.05192.pdf">https://arxiv.org/pdf/1505.05192.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Unsupervised Representation Learning By Predicting Image Rotation</td>
+      <td
+      style="text-align:left">This paper propose a simple and, yet powerful approach that allows the
+        learning of high-level semantic features, by predicting the rotational
+        orientation. Compared to similar approaches, there is no need to additional
+        pre-processing to avoid &quot;trivial&quot; solutions</td>
+        <td style="text-align:left"><a href="https://arxiv.org/pdf/1803.07728.pdf">https://arxiv.org/pdf/1803.07728.pdf</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Colorful Image Colorization</td>
+      <td style="text-align:left">The main focus of this paper is to use deep learning for multi-modal re-colorisation
+        of images. On the side, the author endeavor into a cross-channel encoder
+        and using the features learnt for classification task. Thus fur, I observed
+        that self-supervised techniques can be broadly grouped into three styles:
+        1) hiding information away from learner, 2) feature learning before &amp;
+        after data augmentation, and 3) self-labeling</td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1603.08511.pdf">https://arxiv.org/pdf/1603.08511.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Stand-Alone Self-Attention in Vision Models</td>
+      <td style="text-align:left">
+        <p>This paper explores the complete removal of spatial convolution stem to
+          create a stand-alone self-attention model. The first 3 pages of this paper
+          explains fundamental concepts which I very much appreciate. However, the
+          innovation proposed in this paper is to use 1x1 convolution to inject distance-based
+          information, which under-performs k x k spatial convolution w/ k &gt; 1.</p>
+        <p>Thus, spatial convolution + attention still outperforms either only spatial
+          or attention alone.</p>
+      </td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1906.05909.pdf">https://arxiv.org/pdf/1906.05909.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>### Error-Correcting Output Codes
 
 | Name | Summary | File |
 | :--- | :--- | :--- |
