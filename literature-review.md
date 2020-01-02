@@ -1701,6 +1701,47 @@
       </td>
     </tr>
   </tbody>
+</table>### Faces
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Name</th>
+      <th style="text-align:left">Summary</th>
+      <th style="text-align:left">File</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">On Face Segmentation, Face Swapping, and Face Perception</td>
+      <td style="text-align:left">
+        <p>This paper offers an end-to-end pipeline for face swapping. The key idea
+          being that an accurate facial context would vastly improve the quality
+          of face-swapped images.</p>
+        <p>Hence, the paper focuses on obtaining an accurate segmentation of faces
+          along with the occlusion details.</p>
+        <p>The end-to-end pipeline is as follows: 1) Generate two 3d face models
+          using the source and target images, 2) align the 3d faces using 2d landmarks
+          in the photos, 3) segment non-occluded faces, 4) crop non-occluded parts
+          from the 2d image derived from the aligned 3d source face, 5) blend the
+          faces using poisson image editing.</p>
+        <p></p>
+      </td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1704.06729.pdf">https://arxiv.org/pdf/1704.06729.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">FSGAN: Subject Agnostic Face Swapping and Reenactment</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">FSNet: An Identity-Aware Generative Model forImage-based Face Swapping</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"></td>
+    </tr>
+  </tbody>
 </table>### Others
 
 <table>
@@ -1920,6 +1961,18 @@
       </td>
     </tr>
     <tr>
+      <td style="text-align:left">On the Design of Black-box Adversarial Examples by Leveraging Gradient-free
+        Optimization and Operator Splitting Method</td>
+      <td style="text-align:left">
+        <p>In the introduction of this paper, the authors introduce 3 methods of
+          black-box attacks from previous studies via surrogate model, decison-based
+          attack and C&amp;W attack.</p>
+        <p>These three approach should be sufficient for my use-case, for now.</p>
+      </td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1907.11684.pdf">https://arxiv.org/pdf/1907.11684.pdf</a>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">Generalized No Free Lunch Theorem for Adversarial Robustness</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"><a href="https://arxiv.org/pdf/1810.04065.pdf">https://arxiv.org/pdf/1810.04065.pdf</a>
@@ -1946,9 +1999,10 @@
       </td>
     </tr>
     <tr>
+      <td style="text-align:left">Adversarial Defense via Learning to Generate Diverse Attacks</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://bit.ly/37wONhM">https://bit.ly/37wONhM</a>
+      </td>
     </tr>
   </tbody>
 </table>
