@@ -3108,9 +3108,30 @@
     </tr>
     <tr>
       <td style="text-align:left">Adversarial Defense via Learning to Generate Diverse Attacks</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>This paper proposed a generator network for producing stochastic adversarial
+          example, and its application for adversarial defense. The framework proposed
+          is very similar to GAN. However, as opposed to GAN whose main objective
+          is to maximize the strength of the generator, the proposed framework seek
+          to innoculate the classification network.</p>
+        <p></p>
+        <p>Before reading the article, I believe that the success criteria for such
+          a network, heavily depends on the point of nash-equilibrium.</p>
+      </td>
       <td style="text-align:left"><a href="https://bit.ly/37wONhM">https://bit.ly/37wONhM</a>
       </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Learning to Defense by Learning to Attack</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://arxiv.org/pdf/1811.01213.pdf">https://arxiv.org/pdf/1811.01213.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Why Do Adversarial Attacks Transfer? Explaining Transferability of Evasion
+        andPoisoning Attacks</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
     </tr>
   </tbody>
 </table>
