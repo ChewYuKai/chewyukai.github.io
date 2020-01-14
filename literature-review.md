@@ -2844,10 +2844,20 @@
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">FSNet: An Identity-Aware Generative Model forImage-based Face Swapping</td>
+      <td style="text-align:left">FSNet: An Identity-Aware Generative Model for Image-based Face Swapping</td>
       <td
       style="text-align:left"></td>
         <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">X2Face: A network for controlling face generation by using images, audio,
+        and pose codes</td>
+      <td style="text-align:left">X2Face uses two images of a person from the same scene, take one as the
+        source and the other as a driver. The objective is for the generated image
+        to have the pose from the driver image and the other details from the source.</td>
+      <td
+      style="text-align:left"><a href="https://bit.ly/2TmGnFQ">https://bit.ly/2TmGnFQ</a>
+        </td>
     </tr>
   </tbody>
 </table>### Others
@@ -2880,7 +2890,7 @@
         <p>fraction of the multidimensional space (representation learning. chance
           of different model being close is low)</p>
       </td>
-      <td style="text-align:left"><a href="https://link.springer.com/article/10.1007/BF00130487">https://link.springer.com/article/10.1007/BF00130487</a>
+      <td style="text-align:left"><a href="https://bit.ly/30h4My1">https://bit.ly/30h4My1</a>
       </td>
     </tr>
     <tr>
@@ -2888,8 +2898,7 @@
       <td style="text-align:left">Paper is based on a problem that texture synthesis are either periodic
         or completely random. This paper introduce way to synthesis periodic textures
         with randomized component.</td>
-      <td style="text-align:left"><a href="https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/papers/efros-iccv99.pdf">https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/papers/efros-iccv99.pdf</a>
-      </td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">Adversarial Examples Are Not Bugs, They Are Features</td>
@@ -3097,7 +3106,7 @@
       <td style="text-align:left">Transferable Adversarial Training: A General Approach to Adapting Deep
         Classifiers</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"><a href="http://proceedings.mlr.press/v97/liu19b/liu19b.pdf">http://proceedings.mlr.press/v97/liu19b/liu19b.pdf</a>
+      <td style="text-align:left"><a href="https://bit.ly/2RdybVJ">https://bit.ly/2RdybVJ</a>
       </td>
     </tr>
     <tr>
